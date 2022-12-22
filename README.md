@@ -13,3 +13,5 @@
 [![GitHub Streak](https://streak-stats.demolab.com/ducthinh17)](https://git.io/streak-stats)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=PLD&theme=dark&hide_border=true&border_radius=3.5)](https://git.io/streak-stats)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=ducthinh17&theme=github)
