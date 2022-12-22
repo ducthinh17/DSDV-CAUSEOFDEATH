@@ -12,8 +12,14 @@
 
 [![GitHub Streak](https://streak-stats.demolab.com/ducthinh17)](https://git.io/streak-stats)
 
-<p>
+
 [![GitHub Streak](https://streak-stats.demolab.com?user=PLD&theme=dark&hide_border=true&border_radius=3.5)](https://git.io/streak-stats)
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=ducthinh17&theme=github)
-  </p>
+  
+
+  <br/>
+    <a href="https://github.com/SubhamRaoniar28/github-readme-stats"><img alt="Subham Raoniar's Github Stats" src="https://github-readme-stats.vercel.app/api?username=SubhamRaoniar28&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a>
+  <a href="https://github.com/SubhamRaoniar28/github-readme-stats"><img alt="Subham Raoniar's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SubhamRaoniar28&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
+  <br/>
+  <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
