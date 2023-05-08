@@ -2,15 +2,10 @@ import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
 import { tokens } from "../../theme";
 import { mockTransactions } from "../../data/mockData";
 import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
-// import EmailIcon from "@mui/icons-material/Email";
-import NewReleasesIcon from '@mui/icons-material/NewReleases';
-// import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
-import HeartBrokenIcon from '@mui/icons-material/HeartBroken';
-// import HeartBrokenIcon from '@mui/icons-material/HeartBroken';
-// import PersonAddIcon from "@mui/icons-material/PersonAdd";
-import CoronavirusIcon from '@mui/icons-material/Coronavirus';
-// import TrafficIcon from "@mui/icons-material/Traffic";
-import PersonOffIcon from '@mui/icons-material/PersonOff';
+import EmailIcon from "@mui/icons-material/Email";
+import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
+import PersonAddIcon from "@mui/icons-material/PersonAdd";
+import TrafficIcon from "@mui/icons-material/Traffic";
 import Header from "../../components/Header";
 import LineChart from "../../components/LineChart";
 import GeographyChart from "../../components/GeographyChart";
@@ -26,7 +21,7 @@ const Dashboard = () => {
     <Box m="20px">
       {/* HEADER */}
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="DASHBOARD" subtitle="Welcome to our Data Visualization" />
+        <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
 
         <Box>
           <Button
@@ -61,11 +56,11 @@ const Dashboard = () => {
         >
           <StatBox
             title="12,361"
-            subtitle="Neoplasms"
+            subtitle="Emails Sent"
             progress="0.75"
             increase="+14%"
             icon={
-              <NewReleasesIcon
+              <EmailIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
               />
             }
@@ -79,12 +74,12 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="91,225"
-            subtitle="Cardiovascular Diseases"
+            title="431,225"
+            subtitle="Sales Obtained"
             progress="0.50"
             increase="+21%"
             icon={
-              <HeartBrokenIcon
+              <PointOfSaleIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
               />
             }
@@ -99,11 +94,11 @@ const Dashboard = () => {
         >
           <StatBox
             title="32,441"
-            subtitle="Chronic Respiratory Diseases"
+            subtitle="New Clients"
             progress="0.30"
             increase="+5%"
             icon={
-              <CoronavirusIcon
+              <PersonAddIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
               />
             }
@@ -118,11 +113,11 @@ const Dashboard = () => {
         >
           <StatBox
             title="1,325,134"
-            subtitle="Others"
+            subtitle="Traffic Received"
             progress="0.80"
             increase="+43%"
             icon={
-              <PersonOffIcon
+              <TrafficIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
               />
             }
@@ -148,14 +143,14 @@ const Dashboard = () => {
                 fontWeight="600"
                 color={colors.grey[100]}
               >
-                Deadth Estimated
+                Revenue Generated
               </Typography>
               <Typography
                 variant="h3"
                 fontWeight="bold"
                 color={colors.greenAccent[500]}
               >
-                59,342.32
+                $59,342.32
               </Typography>
             </Box>
             <Box>
@@ -185,7 +180,7 @@ const Dashboard = () => {
             p="15px"
           >
             <Typography color={colors.grey[100]} variant="h5" fontWeight="600">
-              Insurance Counting
+              Recent Transactions
             </Typography>
           </Box>
           {mockTransactions.map((transaction, i) => (
@@ -243,7 +238,7 @@ const Dashboard = () => {
               color={colors.greenAccent[500]}
               sx={{ mt: "15px" }}
             >
-              $48,352 insurance generated
+              $48,352 revenue generated
             </Typography>
             <Typography>Includes extra misc expenditures and costs</Typography>
           </Box>
@@ -258,7 +253,7 @@ const Dashboard = () => {
             fontWeight="600"
             sx={{ padding: "30px 30px 0 30px" }}
           >
-            Obesity Disease
+            Sales Quantity
           </Typography>
           <Box height="250px" mt="-20px">
             <BarChart isDashboard={true} />
