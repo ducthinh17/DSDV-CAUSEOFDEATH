@@ -1,0 +1,81 @@
+{
+  "name": "External LBG",
+  "color": "#053929",
+  "children": [
+    {
+      "name": "Customer",
+      "color": "#0F6046",
+      "children": [
+        {
+          "name": "Customer Details",
+          "color": "#208D6A",
+          "size": 13
+        }
+      ]
+    },
+    {
+      "name": "Financial Crime",
+      "color": "#0F6046",
+      "children": [
+        {
+          "name": "Fraud",
+          "color": "#208D6A",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "ID&Auth",
+      "color": "#0F6046",
+      "children": [
+        {
+          "name": "Authentication",
+          "color": "#208D6A",
+          "size": 81
+        },
+        {
+          "name": "Authorisation",
+          "color": "#208D6A",
+          "size": 5
+        }
+      ]
+    },
+    {
+      "name": "Payments",
+      "color": "#0F6046",
+      "children": [
+        {
+          "name": "Mandate",
+          "color": "#208D6A",
+          "size": 15
+        },
+        {
+          "name": "Payment Initiation",
+          "color": "#208D6A",
+          "size": 7
+        },
+        {
+          "name": "Payments Scheme Services",
+          "color": "#208D6A",
+          "size": 11
+        }
+      ]
+    },
+    {
+      "name": "Product",
+      "color": "#0F6046",
+      "children": [
+        {
+          "name": "Account",
+          "color": "#208D6A",
+          "size": 10
+        },
+        {
+          "name": "Commercial",
+          "color": "#208D6A",
+          "size": 3
+        }
+      ]
+    }
+  ]
+}

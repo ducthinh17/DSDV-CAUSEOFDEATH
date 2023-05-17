@@ -1,0 +1,169 @@
+{
+  "name": "Internal",
+  "color": "#053929",
+  "children": [
+  
+    {
+      "name": "Communicable",
+      "color": "blue",
+    
+      "children": [
+        
+          {
+            "name": "Cardiovascular Diseases",
+            "color": "blue",
+            "size": 447741982
+          },
+          {
+            "name": "Lower Respiratory Infections",
+            "color": "blue",
+            "size": 83770038
+          },
+          {
+            "name": "Neonatal Disorders",
+            "color": "blue",
+            "size": 76860729
+          },
+          {
+            "name": "Diarrheal Diseases",
+            "color": "blue",
+            "size": 66235508
+          },
+          {
+            "name": "Tuberculosis",
+            "color": "blue",
+            "size": 45850603
+          },
+          {
+            "name": "HIV/AIDS",
+            "color": "blue",
+            "size": 36364419
+          },
+          {
+            "name": "Malaria",
+            "color": "blue",
+            "size": 25342676
+          },
+          {
+            "name": "Meningitis",
+            "color": "blue",
+            "size": 10524572
+          }
+        
+      ]
+    },
+    {
+      "name": "Non-Communicable",
+      "color": "green",
+     
+      "children": [
+        {
+          "name": "Neoplasms",
+          "color": "green",
+          "size": 229758538
+        },
+        {
+          "name": "Chronic Respiratory Diseases",
+          "color": "green",
+          "size": 104605334
+        },
+        {
+          "name": "Diabetes Mellitus",
+          "color": "green",
+          "size": 31448872
+        },
+        {
+          "name": "Alzheimer's Disease and Other Dementias",
+          "color": "green",
+          "size": 29768839
+        },
+        {
+          "name": "Chronic Kidney Disease",
+          "color": "green",
+          "size": 28911692
+        },
+        {
+          "name": "Maternal Disorders",
+          "color": "green",
+          "size": 7727046
+        },
+        {
+          "name": "Parkinson's Disease",
+          "color": "green",
+          "size": 7179795
+        },
+        {
+          "name": "Alcohol Use Disorders",
+          "color": "green",
+          "size": 4819018
+        },
+        {
+          "name": "Acute Hepatitis",
+          "color": "green",
+          "size": 3784791
+        }
+      ]
+    },
+    {
+      "name": "Injuries",
+      "color": "red",
+      "children": [
+        {
+          "name": "Road Injuries",
+          "color": "red",
+          "size": 36296469
+        },
+        {
+          "name": "Self-harm",
+          "color": "red",
+          "size": 23713931
+        },
+        {
+          "name": "Interpersonal Violence",
+          "color": "red",
+          "size": 12752839
+        },
+        {
+          "name": "Fire, Heat, and Hot Substances",
+          "color": "red",
+          "size": 3602914
+        },
+        {
+          "name": "Conflict and Terrorism",
+          "color": "red",
+          "size": 3294053
+        },
+        {
+          "name": "Drug Use Disorders",
+          "color": "red",
+          "size": 2656121
+        },
+        {
+          "name": "Poisonings",
+          "color": "red",
+          "size": 2601082
+        },
+        {
+          "name": "Drowning",
+          "color": "red",
+          "size": 10301999
+        },
+        {
+          "name": "Acute Hepatitis",
+          "color": "red",
+          "size": 3784791
+        },
+        {
+          "name": "Environmental Heat and Cold Exposure",
+          "color": "red",
+          "size": 1788851
+        },
+        {
+          "name": "Exposure to Forces of Nature",
+          "color": "red",
+          "size": 1490132
+        }
+      ]
+    }
+  ]
+}
