@@ -1,0 +1,74 @@
+{
+  "name": "Road Injuries",
+  "color": "#053929",
+  "children": [
+    {
+      "name": "East Asia",
+      "color": "brown",
+      "children": [
+        
+        {"name": "China","color": "brown", "size": 8350399},
+        {"name": "Japan","color": "brown", "size": 327979},
+        {"name": "North Korea","color": "brown", "size": 229844},
+        {"name": "South Korea","color": "brown", "size": 309564},
+        {"name": "Mongolia", "color": "brown","size": 15241},
+        {"name": "Taiwan","color": "brown", "size": 160502}
+        
+      ]
+    },
+    {
+      "name": "South Central Asia",
+      "color": "#0F6046",
+      "children": [
+        {"name": "Afghanistan","color": "#0F6046", "size": 208331},
+        {"name": "Bahrain","color": "#0F6046", "size": 4618},
+        {"name": "Bangladesh","color": "#0F6046", "size": 249894},
+        {"name": "Bhutan","color": "#0F6046", "size": 2102},
+        {"name": "Cyprus", "color": "#0F6046","size": 5123},
+        {"name": "East Timor","color": "#0F6046", "size": 0},
+        {"name": "India","color": "#0F6046", "size": 5346154},
+        {"name": "Iran", "color": "#0F6046","size": 840360},
+        {"name": "Iraq", "color": "#0F6046","size": 160444},
+        {"name": "Israel","color": "#0F6046", "size": 19927},
+        {"name": "Jordan", "color": "#0F6046","size": 25603},
+        {"name": "Kazakhstan","color": "#0F6046", "size": 103782},
+        {"name": "Kuwait","color": "#0F6046", "size": 13449},
+        {"name": "Kyrgyzstan", "color": "#0F6046","size": 27667},
+        {"name": "Laos","color": "#0F6046", "size": 36050},
+        {"name": "Lebanon","color": "#0F6046", "size": 11511},
+        {"name": "Maldives", "color": "#0F6046","size": 554},
+        {"name": "Myanmar", "color": "#0F6046","size": 291092},
+        {"name": "Nepal","color": "#0F6046", "size": 66812},
+        {"name": "Oman","color": "#0F6046", "size": 56856},
+        {"name": "Pakistan","color": "#0F6046", "size": 421970},
+        {"name": "Palestine","color": "#0F6046", "size": 10090},
+        {"name": "Qatar", "color": "#0F6046","size": 12711},
+        {"name": "Russia", "color": "#0F6046","size": 1067225},
+        {"name": "Saudi Arabia", "color": "#0F6046","size": 403385},
+        {"name": "Singapore","color": "#0F6046", "size": 6793},
+        {"name": "Syria","color": "#0F6046", "size": 62105},
+        {"name": "Tajikistan","color": "#0F6046", "size": 17297},
+        {"name": "Thailand","color": "#0F6046", "size": 2572195},
+        {"name": "Turkey","color": "#0F6046", "size": 4167835},
+        {"name": "Turkmenistan","color": "#0F6046", "size": 438094},
+        {"name": "United Arab Emirates","color": "#0F6046", "size": 64581},
+        {"name": "Uzbekistan","color": "#0F6046", "size": 120419},
+        {"name": "Yemen","color": "#0F6046", "size": 278327}
+      ]
+    },
+    {
+      "name": "Southeast Asia",
+      "color": "blue",
+      "children": [
+        {"name": "Brunei","color": "blue", "size": 1850},
+        {"name": "Cambodia","color": "blue", "size": 82216},
+        {"name": "Indonesia","color": "blue", "size": 1325509},
+        {"name": "Malaysia","color": "blue", "size": 178875},
+        {"name": "Philippines", "color": "blue","size": 272369},
+        {"name": "Singapore","color": "blue", "size": 6793},
+        {"name": "Thailand","color": "blue", "size": 717057},
+        {"name": "Vietnam","color": "blue", "size": 594980}
+      ]
+    }
+  ]
+}

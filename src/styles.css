@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.radio {
+  margin: 50px;
+}
+
+.chart {
+  margin-top: 50px;
+}
+
+iframe {
+  display: none;
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Cardiovascular",
+  "color": "#053929",
+  "children": [
+    {
+      "name": "East Asia",
+      "color": "red",
+      "children": [
+        { "name": "China","color": "red", "size": 100505973 },
+        { "name": "Japan","color": "red", "size": 9210437 },
+        { "name": "North Korea","color": "red", "size": 2241454 },
+        { "name": "South Korea","color": "red", "size": 2078568 },
+        { "name": "Mongolia","color": "red", "size": 231046 },
+        { "name": "Taiwan","color": "red", "size": 981658 }
+      ]
+    },
+    {
+      "name": "South Central Asia",
+      "color": "blue",
+      "children": [
+        { "name": "Afghanistan","color": "blue", "size": 1607042 },
+        { "name": "Bahrain","color": "blue", "size": 25731 },
+        { "name": "Bangladesh","color": "blue", "size": 6123691 },
+        { "name": "Bhutan","color": "blue", "size": 25967 },
+        { "name": "Cyprus","color": "blue", "size": 83156 },
+        { "name": "East Timor","color": "blue", "size": 0 },
+        { "name": "India","color": "blue", "size": 52994710 },
+        { "name": "Iran","color": "blue", "size": 3867575 },
+        { "name": "Iraq","color": "blue", "size": 1655522 },
+        { "name": "Israel","color": "blue", "size": 353386 },
+        { "name": "Jordan","color": "blue", "size": 201236 },
+        { "name": "Kazakhstan","color": "blue", "size": 2232449 },
+        { "name": "Kuwait","color": "blue", "size": 72602 },
+        { "name": "Kyrgyzstan","color": "blue", "size": 517868 },
+        { "name": "Laos","color": "blue", "size": 309868 },
+        { "name": "Lebanon", "color": "blue","size": 362107 },
+        { "name": "Maldives","color": "blue", "size": 11463 },
+        { "name": "Myanmar","color": "blue", "size": 3522423 },
+        { "name": "Nepal","color": "blue", "size": 913752 },
+        { "name": "Oman","color": "blue", "size": 132123 },
+        { "name": "Pakistan","color": "blue", "size": 7745192 },
+        { "name": "Palestine","color": "blue", "size": 148182 },
+        { "name": "Qatar","color": "blue", "size": 19305 },
+        { "name": "Russia","color": "blue", "size": 33903781 },
+        { "name": "Saudi Arabia","color": "blue", "size": 982797 },
+        { "name": "Singapore","color": "blue", "size": 166594 },
+        { "name": "Syria","color": "blue", "size": 1056981 },
+        { "name": "Tajikistan","color": "blue", "size": 535923 },
+        { "name": "Thailand","color": "blue", "size": 2572195 },
+        { "name": "Turkey", "color": "blue","size": 4167835 },
+        { "name": "Turkmenistan","color": "blue", "size": 438094 },
+        { "name": "United Arab Emirates","color": "blue", "size": 113217 },
+        { "name": "Uzbekistan","color": "blue", "size": 2749832 },
+        { "name": "Yemen", "color": "blue","size": 1110837 }
+      ]
+    },
+    {
+      "name": "Southeast Asia",
+      "color": "yellow",
+      "children": [
+        { "name": "Brunei","color": "yellow", "size": 10987 },
+        { "name": "Cambodia","color": "yellow", "size": 610359 },
+        { "name": "Indonesia","color": "yellow", "size": 13587011 },
+        { "name": "Malaysia","color": "yellow", "size": 1194056 },
+        { "name": "Philippines","color": "yellow", "size": 3724705 },
+        { "name": "Singapore", "color": "yellow","size": 166594 },
+        { "name": "Thailand","color": "yellow", "size": 2572195 },
+        { "name": "Vietnam", "color": "yellow","size": 5323920 }
+      ]
+    }]
+}

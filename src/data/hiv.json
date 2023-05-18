@@ -1,0 +1,264 @@
+{
+  "name": "HIV/AIDS",
+  "color": "#053929",
+  "children": [
+    {
+      "name": "East_Asia",
+      "color": "Yellow",
+      "children": [
+        {
+          "name": "China",
+          "size": 433709,
+          "color": "Yellow"
+        },
+        {
+          "name": "Japan",
+          "size": 5140,
+          "color": "Yellow"
+        },
+        {
+          "name": "North Korea",
+          "size": 0,
+          "color": "Yellow"
+        },
+        {
+          "name": "South Korea",
+          "size": 9620,
+          "color": "Yellow"
+        },
+        {
+          "name": "Mongolia",
+          "size": 180,
+          "color": "Yellow"
+        },
+        {
+          "name": "Taiwan",
+          "size": 3399,
+          "color": "Yellow"
+        }
+      ]
+    },
+    {
+      "name": "South_Central_Asia",
+      "color": "blue",
+      "children": [
+        {
+          "name": "Afghanistan",
+          "color": "blue",
+          "size": 4282
+        },
+        {
+          "name": "Bahrain",
+          "color": "blue",
+          "size": 276
+        },
+        {
+          "name": "Bangladesh",
+          "color": "blue",
+          "size": 4434
+        },
+        {
+          "name": "Bhutan",
+          "color": "blue",
+          "size": 615
+        },
+        {
+          "name": "Cyprus",
+          "color": "blue",
+          "size": 83
+        },
+        {
+          "name": "East Timor",
+          "color": "blue",
+          "size": 0
+        },
+        {
+          "name": "India",
+          "color": "blue",
+          "size": 2454374
+        },
+        {
+          "name": "Iran",
+          "color": "blue",
+          "size": 12695
+        },
+        {
+          "name": "Iraq",
+          "color": "blue",
+          "size": 1451
+        },
+        {
+          "name": "Israel",
+          "color": "blue",
+          "size": 1186
+        },
+        {
+          "name": "Jordan",
+          "color": "blue",
+          "size": 400
+        },
+        {
+          "name": "Kazakhstan",
+          "color": "blue",
+          "size": 7614
+        },
+        {
+          "name": "Kuwait",
+          "color": "blue",
+          "size": 77
+        },
+        {
+          "name": "Kyrgyzstan",
+          "color": "blue",
+          "size": 3767
+        },
+        {
+          "name": "Laos",
+          "color": "blue",
+          "size": 6315
+        },
+        {
+          "name": "Lebanon",
+          "color": "blue",
+          "size": 1906
+        },
+        {
+          "name": "Maldives",
+          "color": "blue",
+          "size": 12
+        },
+        {
+          "name": "Myanmar",
+          "color": "blue",
+          "size": 268570
+        },
+        {
+          "name": "Nepal",
+          "color": "blue",
+          "size": 34487
+        },
+        {
+          "name": "Oman",
+          "color": "blue",
+          "size": 1388
+        },
+        {
+          "name": "Pakistan",
+          "color": "blue",
+          "size": 36968
+        },
+        {
+          "name": "Palestine",
+          "color": "blue",
+          "size": 223
+        },
+        {
+          "name": "Qatar",
+          "color": "blue",
+          "size": 101
+        },
+        {
+          "name": "Russia",
+          "color": "blue",
+          "size": 350679
+        },
+        {
+          "name": "Saudi Arabia",
+          "color": "blue",
+          "size": 11106
+        },
+        {
+          "name": "Singapore",
+          "color": "blue",
+          "size": 1241
+        },
+        {
+          "name": "Syria",
+          "color": "blue",
+          "size": 541
+        },
+        {
+          "name": "Tajikistan",
+          "color": "blue",
+          "size": 2325
+        },
+        {
+          "name": "Thailand",
+          "color": "blue",
+          "size": 618532
+        },
+        {
+          "name": "Turkey",
+          "color": "blue",
+          "size": 2970
+        },
+        {
+          "name": "Turkmenistan",
+          "color": "blue",
+          "size": 3950
+        },
+        {
+          "name": "United Arab Emirates",
+          "color": "blue",
+          "size": 1866
+        },
+        {
+          "name": "Uzbekistan",
+          "color": "blue",
+          "size": 12309
+        },
+        {
+          "name": "Yemen",
+          "color": "blue",
+          "size": 6276
+        }
+      ]
+    },
+    {
+      "name": "Southeast Asia",
+      "color": "Brown",
+      "children": [
+        {
+          "name": "Brunei",
+          "color": "Brown",
+          "size": 99
+        },
+        {
+          "name": "Cambodia",
+          "color": "Brown",
+          "size": 104487
+        },
+        {
+          "name": "Indonesia",
+          "color": "Brown",
+          "size": 74981
+        },
+        {
+          "name": "Malaysia",
+          "color": "Brown",
+          "size": 49843
+        },
+        {
+          "name": "Philippines",
+          "color": "Brown",
+          "size": 110923
+        },
+        {
+          "name": "Singapore",
+          "color": "Brown",
+          "size": 1241
+        },
+        {
+          "name": "Thailand",
+          "color": "Brown",
+          "size": 618532
+        },
+        {
+          "name": "Vietnam",
+          "color": "Brown",
+          "size": 148838
+        }
+      ]
+    }
+  ]
+}
