@@ -1,13 +1,13 @@
 import { Box } from "@mui/material";
 import Header from "../../components/Header";
-import PieChart from "../../components/PieChart";
+import Sunburst from "../../components/Sunburst";
 
 const Pie = () => {
   return (
     <Box m="20px">
-      <Header title="Pie Chart" subtitle="Simple Pie Chart" />
+      <Header title="Sunburst Chart" subtitle="Simple Sunburst Chart" />
       <Box height="75vh">
-        <PieChart />
+        <Sunburst />
       </Box>
     </Box>
   );

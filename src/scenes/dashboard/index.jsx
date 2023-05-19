@@ -9,9 +9,9 @@ import TrafficIcon from "@mui/icons-material/Traffic";
 import Header from "../../components/Header";
 import LineChart from "../../components/LineChart";
 import GeographyChart from "../../components/GeographyChart";
-import BarChart from "../../components/BarChart";
+import BarChart from "../../components/scatterr";
 import StatBox from "../../components/StatBox";
-import ProgressCircle from "../../components/ProgressCircle";
+import ReactSunburst from "../../components/ProgressCircle";
 
 const Dashboard = () => {
   const theme = useTheme();
@@ -232,7 +232,7 @@ const Dashboard = () => {
             alignItems="center"
             mt="25px"
           >
-            <ProgressCircle size="125" />
+            <ReactSunburst size="125" />
             <Typography
               variant="h5"
               color={colors.greenAccent[500]}

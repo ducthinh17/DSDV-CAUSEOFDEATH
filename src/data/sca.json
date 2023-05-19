@@ -1,0 +1,33 @@
+{
+  "name": "SCA",
+  "color": "#053929",
+  "children": [
+    {
+      "name": "ID&Auth",
+      "color": "#0F6046",
+      "children": [
+        {
+          "name": "Authentication",
+          "color": "#208D6A",
+          "size": 78
+        },
+        {
+          "name": "Authorisation",
+          "color": "#208D6A",
+          "size": 24
+        }
+      ]
+    },
+    {
+      "name": "Product",
+      "color": "#0F6046",
+      "children": [
+        {
+          "name": "Account",
+          "color": "#208D6A",
+          "size": 1
+        }
+      ]
+    }
+  ]
+}

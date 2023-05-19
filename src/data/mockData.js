@@ -316,6 +316,1879 @@ export const mockTransactions = [
     cost: "133.45",
   },
 ];
+export const mockScatter = [
+  {
+    id: "group A",
+    data: [
+      {
+        x: 20,
+        y: 21,
+      },
+      {
+        x: 78,
+        y: 63,
+      },
+      {
+        x: 79,
+        y: 116,
+      },
+      {
+        x: 55,
+        y: 99,
+      },
+      {
+        x: 99,
+        y: 80,
+      },
+      {
+        x: 98,
+        y: 116,
+      },
+      {
+        x: 4,
+        y: 79,
+      },
+      {
+        x: 84,
+        y: 83,
+      },
+      {
+        x: 23,
+        y: 69,
+      },
+      {
+        x: 89,
+        y: 69,
+      },
+      {
+        x: 88,
+        y: 74,
+      },
+      {
+        x: 34,
+        y: 27,
+      },
+      {
+        x: 95,
+        y: 57,
+      },
+      {
+        x: 75,
+        y: 17,
+      },
+      {
+        x: 4,
+        y: 93,
+      },
+      {
+        x: 10,
+        y: 119,
+      },
+      {
+        x: 10,
+        y: 72,
+      },
+      {
+        x: 59,
+        y: 77,
+      },
+      {
+        x: 99,
+        y: 87,
+      },
+      {
+        x: 81,
+        y: 92,
+      },
+      {
+        x: 49,
+        y: 0,
+      },
+      {
+        x: 9,
+        y: 106,
+      },
+      {
+        x: 22,
+        y: 108,
+      },
+      {
+        x: 15,
+        y: 91,
+      },
+      {
+        x: 12,
+        y: 74,
+      },
+      {
+        x: 33,
+        y: 74,
+      },
+      {
+        x: 49,
+        y: 88,
+      },
+      {
+        x: 45,
+        y: 25,
+      },
+      {
+        x: 57,
+        y: 33,
+      },
+      {
+        x: 8,
+        y: 104,
+      },
+      {
+        x: 38,
+        y: 87,
+      },
+      {
+        x: 44,
+        y: 46,
+      },
+      {
+        x: 45,
+        y: 90,
+      },
+      {
+        x: 9,
+        y: 85,
+      },
+      {
+        x: 83,
+        y: 37,
+      },
+      {
+        x: 12,
+        y: 55,
+      },
+      {
+        x: 6,
+        y: 86,
+      },
+      {
+        x: 64,
+        y: 120,
+      },
+      {
+        x: 59,
+        y: 6,
+      },
+      {
+        x: 80,
+        y: 78,
+      },
+      {
+        x: 33,
+        y: 63,
+      },
+      {
+        x: 53,
+        y: 109,
+      },
+      {
+        x: 78,
+        y: 41,
+      },
+      {
+        x: 76,
+        y: 80,
+      },
+      {
+        x: 44,
+        y: 33,
+      },
+      {
+        x: 85,
+        y: 98,
+      },
+      {
+        x: 26,
+        y: 52,
+      },
+      {
+        x: 20,
+        y: 104,
+      },
+      {
+        x: 45,
+        y: 12,
+      },
+      {
+        x: 90,
+        y: 54,
+      },
+    ],
+  },
+  {
+    id: "group B",
+    data: [
+      {
+        x: 24,
+        y: 1,
+      },
+      {
+        x: 26,
+        y: 63,
+      },
+      {
+        x: 74,
+        y: 99,
+      },
+      {
+        x: 31,
+        y: 34,
+      },
+      {
+        x: 23,
+        y: 18,
+      },
+      {
+        x: 82,
+        y: 67,
+      },
+      {
+        x: 65,
+        y: 77,
+      },
+      {
+        x: 28,
+        y: 21,
+      },
+      {
+        x: 74,
+        y: 96,
+      },
+      {
+        x: 97,
+        y: 75,
+      },
+      {
+        x: 54,
+        y: 107,
+      },
+      {
+        x: 70,
+        y: 114,
+      },
+      {
+        x: 50,
+        y: 89,
+      },
+      {
+        x: 12,
+        y: 77,
+      },
+      {
+        x: 66,
+        y: 78,
+      },
+      {
+        x: 62,
+        y: 41,
+      },
+      {
+        x: 23,
+        y: 21,
+      },
+      {
+        x: 69,
+        y: 56,
+      },
+      {
+        x: 37,
+        y: 53,
+      },
+      {
+        x: 11,
+        y: 105,
+      },
+      {
+        x: 69,
+        y: 83,
+      },
+      {
+        x: 20,
+        y: 101,
+      },
+      {
+        x: 2,
+        y: 87,
+      },
+      {
+        x: 89,
+        y: 79,
+      },
+      {
+        x: 47,
+        y: 88,
+      },
+      {
+        x: 36,
+        y: 14,
+      },
+      {
+        x: 37,
+        y: 33,
+      },
+      {
+        x: 75,
+        y: 113,
+      },
+      {
+        x: 44,
+        y: 62,
+      },
+      {
+        x: 79,
+        y: 98,
+      },
+      {
+        x: 31,
+        y: 24,
+      },
+      {
+        x: 28,
+        y: 14,
+      },
+      {
+        x: 55,
+        y: 107,
+      },
+      {
+        x: 62,
+        y: 34,
+      },
+      {
+        x: 29,
+        y: 105,
+      },
+      {
+        x: 58,
+        y: 108,
+      },
+      {
+        x: 49,
+        y: 120,
+      },
+      {
+        x: 79,
+        y: 41,
+      },
+      {
+        x: 70,
+        y: 40,
+      },
+      {
+        x: 6,
+        y: 26,
+      },
+      {
+        x: 77,
+        y: 77,
+      },
+      {
+        x: 47,
+        y: 11,
+      },
+      {
+        x: 60,
+        y: 70,
+      },
+      {
+        x: 18,
+        y: 35,
+      },
+      {
+        x: 6,
+        y: 63,
+      },
+      {
+        x: 27,
+        y: 32,
+      },
+      {
+        x: 35,
+        y: 2,
+      },
+      {
+        x: 93,
+        y: 29,
+      },
+      {
+        x: 23,
+        y: 26,
+      },
+      {
+        x: 72,
+        y: 87,
+      },
+    ],
+  },
+  {
+    id: "group C",
+    data: [
+      {
+        x: 95,
+        y: 69,
+      },
+      {
+        x: 37,
+        y: 62,
+      },
+      {
+        x: 47,
+        y: 43,
+      },
+      {
+        x: 71,
+        y: 65,
+      },
+      {
+        x: 67,
+        y: 93,
+      },
+      {
+        x: 52,
+        y: 48,
+      },
+      {
+        x: 79,
+        y: 25,
+      },
+      {
+        x: 8,
+        y: 25,
+      },
+      {
+        x: 11,
+        y: 67,
+      },
+      {
+        x: 28,
+        y: 46,
+      },
+      {
+        x: 11,
+        y: 120,
+      },
+      {
+        x: 25,
+        y: 57,
+      },
+      {
+        x: 23,
+        y: 113,
+      },
+      {
+        x: 19,
+        y: 101,
+      },
+      {
+        x: 66,
+        y: 118,
+      },
+      {
+        x: 31,
+        y: 11,
+      },
+      {
+        x: 11,
+        y: 30,
+      },
+      {
+        x: 98,
+        y: 79,
+      },
+      {
+        x: 93,
+        y: 15,
+      },
+      {
+        x: 53,
+        y: 58,
+      },
+      {
+        x: 37,
+        y: 91,
+      },
+      {
+        x: 29,
+        y: 94,
+      },
+      {
+        x: 96,
+        y: 102,
+      },
+      {
+        x: 36,
+        y: 16,
+      },
+      {
+        x: 99,
+        y: 89,
+      },
+      {
+        x: 51,
+        y: 73,
+      },
+      {
+        x: 80,
+        y: 3,
+      },
+      {
+        x: 2,
+        y: 18,
+      },
+      {
+        x: 81,
+        y: 20,
+      },
+      {
+        x: 61,
+        y: 48,
+      },
+      {
+        x: 17,
+        y: 120,
+      },
+      {
+        x: 96,
+        y: 109,
+      },
+      {
+        x: 73,
+        y: 95,
+      },
+      {
+        x: 32,
+        y: 4,
+      },
+      {
+        x: 77,
+        y: 80,
+      },
+      {
+        x: 62,
+        y: 85,
+      },
+      {
+        x: 8,
+        y: 92,
+      },
+      {
+        x: 52,
+        y: 71,
+      },
+      {
+        x: 70,
+        y: 3,
+      },
+      {
+        x: 31,
+        y: 46,
+      },
+      {
+        x: 99,
+        y: 16,
+      },
+      {
+        x: 72,
+        y: 43,
+      },
+      {
+        x: 83,
+        y: 34,
+      },
+      {
+        x: 23,
+        y: 105,
+      },
+      {
+        x: 30,
+        y: 20,
+      },
+      {
+        x: 52,
+        y: 71,
+      },
+      {
+        x: 39,
+        y: 119,
+      },
+      {
+        x: 2,
+        y: 89,
+      },
+      {
+        x: 90,
+        y: 119,
+      },
+      {
+        x: 41,
+        y: 51,
+      },
+    ],
+  },
+  {
+    id: "group D",
+    data: [
+      {
+        x: 60,
+        y: 99,
+      },
+      {
+        x: 86,
+        y: 67,
+      },
+      {
+        x: 32,
+        y: 65,
+      },
+      {
+        x: 89,
+        y: 47,
+      },
+      {
+        x: 92,
+        y: 71,
+      },
+      {
+        x: 59,
+        y: 41,
+      },
+      {
+        x: 96,
+        y: 97,
+      },
+      {
+        x: 79,
+        y: 103,
+      },
+      {
+        x: 71,
+        y: 61,
+      },
+      {
+        x: 5,
+        y: 22,
+      },
+      {
+        x: 73,
+        y: 10,
+      },
+      {
+        x: 98,
+        y: 40,
+      },
+      {
+        x: 89,
+        y: 104,
+      },
+      {
+        x: 12,
+        y: 50,
+      },
+      {
+        x: 31,
+        y: 118,
+      },
+      {
+        x: 16,
+        y: 25,
+      },
+      {
+        x: 53,
+        y: 70,
+      },
+      {
+        x: 63,
+        y: 21,
+      },
+      {
+        x: 44,
+        y: 24,
+      },
+      {
+        x: 4,
+        y: 77,
+      },
+      {
+        x: 4,
+        y: 89,
+      },
+      {
+        x: 95,
+        y: 32,
+      },
+      {
+        x: 36,
+        y: 98,
+      },
+      {
+        x: 96,
+        y: 107,
+      },
+      {
+        x: 78,
+        y: 39,
+      },
+      {
+        x: 17,
+        y: 102,
+      },
+      {
+        x: 13,
+        y: 44,
+      },
+      {
+        x: 59,
+        y: 5,
+      },
+      {
+        x: 28,
+        y: 7,
+      },
+      {
+        x: 89,
+        y: 4,
+      },
+      {
+        x: 53,
+        y: 112,
+      },
+      {
+        x: 58,
+        y: 72,
+      },
+      {
+        x: 66,
+        y: 13,
+      },
+      {
+        x: 95,
+        y: 12,
+      },
+      {
+        x: 51,
+        y: 55,
+      },
+      {
+        x: 23,
+        y: 57,
+      },
+      {
+        x: 44,
+        y: 52,
+      },
+      {
+        x: 46,
+        y: 78,
+      },
+      {
+        x: 90,
+        y: 89,
+      },
+      {
+        x: 49,
+        y: 21,
+      },
+      {
+        x: 52,
+        y: 1,
+      },
+      {
+        x: 91,
+        y: 70,
+      },
+      {
+        x: 43,
+        y: 86,
+      },
+      {
+        x: 67,
+        y: 2,
+      },
+      {
+        x: 78,
+        y: 2,
+      },
+      {
+        x: 0,
+        y: 15,
+      },
+      {
+        x: 94,
+        y: 38,
+      },
+      {
+        x: 17,
+        y: 43,
+      },
+      {
+        x: 79,
+        y: 119,
+      },
+      {
+        x: 85,
+        y: 9,
+      },
+    ],
+  },
+  {
+    id: "group E",
+    data: [
+      {
+        x: 90,
+        y: 8,
+      },
+      {
+        x: 51,
+        y: 58,
+      },
+      {
+        x: 59,
+        y: 32,
+      },
+      {
+        x: 33,
+        y: 38,
+      },
+      {
+        x: 72,
+        y: 4,
+      },
+      {
+        x: 94,
+        y: 8,
+      },
+      {
+        x: 41,
+        y: 3,
+      },
+      {
+        x: 54,
+        y: 31,
+      },
+      {
+        x: 45,
+        y: 113,
+      },
+      {
+        x: 30,
+        y: 117,
+      },
+      {
+        x: 40,
+        y: 64,
+      },
+      {
+        x: 87,
+        y: 36,
+      },
+      {
+        x: 31,
+        y: 43,
+      },
+      {
+        x: 34,
+        y: 86,
+      },
+      {
+        x: 48,
+        y: 82,
+      },
+      {
+        x: 9,
+        y: 23,
+      },
+      {
+        x: 17,
+        y: 2,
+      },
+      {
+        x: 86,
+        y: 18,
+      },
+      {
+        x: 26,
+        y: 54,
+      },
+      {
+        x: 14,
+        y: 14,
+      },
+      {
+        x: 44,
+        y: 117,
+      },
+      {
+        x: 74,
+        y: 71,
+      },
+      {
+        x: 54,
+        y: 63,
+      },
+      {
+        x: 94,
+        y: 43,
+      },
+      {
+        x: 62,
+        y: 12,
+      },
+      {
+        x: 75,
+        y: 117,
+      },
+      {
+        x: 64,
+        y: 80,
+      },
+      {
+        x: 83,
+        y: 33,
+      },
+      {
+        x: 87,
+        y: 86,
+      },
+      {
+        x: 38,
+        y: 54,
+      },
+      {
+        x: 20,
+        y: 9,
+      },
+      {
+        x: 61,
+        y: 109,
+      },
+      {
+        x: 32,
+        y: 30,
+      },
+      {
+        x: 86,
+        y: 94,
+      },
+      {
+        x: 99,
+        y: 0,
+      },
+      {
+        x: 0,
+        y: 118,
+      },
+      {
+        x: 93,
+        y: 33,
+      },
+      {
+        x: 20,
+        y: 104,
+      },
+      {
+        x: 5,
+        y: 29,
+      },
+      {
+        x: 26,
+        y: 36,
+      },
+      {
+        x: 100,
+        y: 66,
+      },
+      {
+        x: 25,
+        y: 33,
+      },
+      {
+        x: 29,
+        y: 10,
+      },
+      {
+        x: 58,
+        y: 65,
+      },
+      {
+        x: 67,
+        y: 46,
+      },
+      {
+        x: 51,
+        y: 71,
+      },
+      {
+        x: 83,
+        y: 96,
+      },
+      {
+        x: 49,
+        y: 33,
+      },
+      {
+        x: 99,
+        y: 71,
+      },
+      {
+        x: 3,
+        y: 97,
+      },
+    ],
+  },
+];
+
+export const sunBurstSampleData = {
+  name: "nivo",
+  color: "hsl(191, 70%, 50%)",
+  children: [
+    {
+      name: "viz",
+      color: "hsl(257, 70%, 50%)",
+      children: [
+        {
+          name: "stack",
+          color: "hsl(132, 70%, 50%)",
+          children: [
+            {
+              name: "cchart",
+              color: "hsl(73, 70%, 50%)",
+              loc: 34652,
+            },
+            {
+              name: "xAxis",
+              color: "hsl(283, 70%, 50%)",
+              loc: 34481,
+            },
+            {
+              name: "yAxis",
+              color: "hsl(231, 70%, 50%)",
+              loc: 78627,
+            },
+            {
+              name: "layers",
+              color: "hsl(310, 70%, 50%)",
+              loc: 183831,
+            },
+          ],
+        },
+        {
+          name: "ppie",
+          color: "hsl(39, 70%, 50%)",
+          children: [
+            {
+              name: "chart",
+              color: "hsl(89, 70%, 50%)",
+              children: [
+                {
+                  name: "pie",
+                  color: "hsl(254, 70%, 50%)",
+                  children: [
+                    {
+                      name: "outline",
+                      color: "hsl(103, 70%, 50%)",
+                      loc: 25303,
+                    },
+                    {
+                      name: "slices",
+                      color: "hsl(106, 70%, 50%)",
+                      loc: 78460,
+                    },
+                    {
+                      name: "bbox",
+                      color: "hsl(45, 70%, 50%)",
+                      loc: 73301,
+                    },
+                  ],
+                },
+                {
+                  name: "donut",
+                  color: "hsl(35, 70%, 50%)",
+                  loc: 138028,
+                },
+                {
+                  name: "gauge",
+                  color: "hsl(21, 70%, 50%)",
+                  loc: 90836,
+                },
+              ],
+            },
+            {
+              name: "legends",
+              color: "hsl(68, 70%, 50%)",
+              loc: 83200,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: "colors",
+      color: "hsl(342, 70%, 50%)",
+      children: [
+        {
+          name: "rgb",
+          color: "hsl(61, 70%, 50%)",
+          loc: 150532,
+        },
+        {
+          name: "hsl",
+          color: "hsl(111, 70%, 50%)",
+          loc: 60222,
+        },
+      ],
+    },
+    {
+      name: "utils",
+      color: "hsl(230, 70%, 50%)",
+      children: [
+        {
+          name: "randomize",
+          color: "hsl(82, 70%, 50%)",
+          loc: 35126,
+        },
+        {
+          name: "resetClock",
+          color: "hsl(12, 70%, 50%)",
+          loc: 129376,
+        },
+        {
+          name: "noop",
+          color: "hsl(274, 70%, 50%)",
+          loc: 156915,
+        },
+        {
+          name: "tick",
+          color: "hsl(201, 70%, 50%)",
+          loc: 13108,
+        },
+        {
+          name: "forceGC",
+          color: "hsl(244, 70%, 50%)",
+          loc: 75820,
+        },
+        {
+          name: "stackTrace",
+          color: "hsl(138, 70%, 50%)",
+          loc: 137794,
+        },
+        {
+          name: "dbg",
+          color: "hsl(242, 70%, 50%)",
+          loc: 124819,
+        },
+      ],
+    },
+    {
+      name: "generators",
+      color: "hsl(40, 70%, 50%)",
+      children: [
+        {
+          name: "address",
+          color: "hsl(146, 70%, 50%)",
+          loc: 2026,
+        },
+        {
+          name: "city",
+          color: "hsl(355, 70%, 50%)",
+          loc: 52959,
+        },
+        {
+          name: "animal",
+          color: "hsl(77, 70%, 50%)",
+          loc: 84357,
+        },
+        {
+          name: "movie",
+          color: "hsl(338, 70%, 50%)",
+          loc: 114289,
+        },
+        {
+          name: "user",
+          color: "hsl(67, 70%, 50%)",
+          loc: 16195,
+        },
+      ],
+    },
+    {
+      name: "set",
+      color: "hsl(340, 70%, 50%)",
+      children: [
+        {
+          name: "clone",
+          color: "hsl(335, 70%, 50%)",
+          loc: 2374,
+        },
+        {
+          name: "intersect",
+          color: "hsl(304, 70%, 50%)",
+          loc: 88251,
+        },
+        {
+          name: "merge",
+          color: "hsl(4, 70%, 50%)",
+          loc: 187732,
+        },
+        {
+          name: "reverse",
+          color: "hsl(15, 70%, 50%)",
+          loc: 137456,
+        },
+        {
+          name: "toArray",
+          color: "hsl(128, 70%, 50%)",
+          loc: 189016,
+        },
+        {
+          name: "toObject",
+          color: "hsl(311, 70%, 50%)",
+          loc: 164113,
+        },
+        {
+          name: "fromCSV",
+          color: "hsl(351, 70%, 50%)",
+          loc: 12057,
+        },
+        {
+          name: "slice",
+          color: "hsl(160, 70%, 50%)",
+          loc: 192489,
+        },
+        {
+          name: "append",
+          color: "hsl(38, 70%, 50%)",
+          loc: 32889,
+        },
+        {
+          name: "prepend",
+          color: "hsl(120, 70%, 50%)",
+          loc: 52912,
+        },
+        {
+          name: "shuffle",
+          color: "hsl(122, 70%, 50%)",
+          loc: 8389,
+        },
+        {
+          name: "pick",
+          color: "hsl(40, 70%, 50%)",
+          loc: 104759,
+        },
+        {
+          name: "plouc",
+          color: "hsl(12, 70%, 50%)",
+          loc: 35636,
+        },
+      ],
+    },
+    {
+      name: "text",
+      color: "hsl(269, 70%, 50%)",
+      children: [
+        {
+          name: "trim",
+          color: "hsl(16, 70%, 50%)",
+          loc: 47753,
+        },
+        {
+          name: "slugify",
+          color: "hsl(139, 70%, 50%)",
+          loc: 143675,
+        },
+        {
+          name: "snakeCase",
+          color: "hsl(59, 70%, 50%)",
+          loc: 87599,
+        },
+        {
+          name: "camelCase",
+          color: "hsl(74, 70%, 50%)",
+          loc: 140168,
+        },
+        {
+          name: "repeat",
+          color: "hsl(309, 70%, 50%)",
+          loc: 168906,
+        },
+        {
+          name: "padLeft",
+          color: "hsl(343, 70%, 50%)",
+          loc: 187874,
+        },
+        {
+          name: "padRight",
+          color: "hsl(200, 70%, 50%)",
+          loc: 44600,
+        },
+        {
+          name: "sanitize",
+          color: "hsl(206, 70%, 50%)",
+          loc: 142742,
+        },
+        {
+          name: "ploucify",
+          color: "hsl(168, 70%, 50%)",
+          loc: 13275,
+        },
+      ],
+    },
+    {
+      name: "misc",
+      color: "hsl(322, 70%, 50%)",
+      children: [
+        {
+          name: "greetings",
+          color: "hsl(101, 70%, 50%)",
+          children: [
+            {
+              name: "hey",
+              color: "hsl(82, 70%, 50%)",
+              loc: 100315,
+            },
+            {
+              name: "HOWDY",
+              color: "hsl(294, 70%, 50%)",
+              loc: 95474,
+            },
+            {
+              name: "aloha",
+              color: "hsl(302, 70%, 50%)",
+              loc: 171190,
+            },
+            {
+              name: "AHOY",
+              color: "hsl(103, 70%, 50%)",
+              loc: 115933,
+            },
+          ],
+        },
+        {
+          name: "other",
+          color: "hsl(193, 70%, 50%)",
+          loc: 152820,
+        },
+        {
+          name: "path",
+          color: "hsl(338, 70%, 50%)",
+          children: [
+            {
+              name: "pathA",
+              color: "hsl(345, 70%, 50%)",
+              loc: 8445,
+            },
+            {
+              name: "pathB",
+              color: "hsl(69, 70%, 50%)",
+              children: [
+                {
+                  name: "pathB1",
+                  color: "hsl(278, 70%, 50%)",
+                  loc: 58926,
+                },
+                {
+                  name: "pathB2",
+                  color: "hsl(66, 70%, 50%)",
+                  loc: 32097,
+                },
+                {
+                  name: "pathB3",
+                  color: "hsl(155, 70%, 50%)",
+                  loc: 28703,
+                },
+                {
+                  name: "pathB4",
+                  color: "hsl(63, 70%, 50%)",
+                  loc: 29986,
+                },
+              ],
+            },
+            {
+              name: "pathC",
+              color: "hsl(42, 70%, 50%)",
+              children: [
+                {
+                  name: "pathC1",
+                  color: "hsl(230, 70%, 50%)",
+                  loc: 162960,
+                },
+                {
+                  name: "pathC2",
+                  color: "hsl(328, 70%, 50%)",
+                  loc: 114610,
+                },
+                {
+                  name: "pathC3",
+                  color: "hsl(141, 70%, 50%)",
+                  loc: 197787,
+                },
+                {
+                  name: "pathC4",
+                  color: "hsl(291, 70%, 50%)",
+                  loc: 139558,
+                },
+                {
+                  name: "pathC5",
+                  color: "hsl(258, 70%, 50%)",
+                  loc: 187565,
+                },
+                {
+                  name: "pathC6",
+                  color: "hsl(155, 70%, 50%)",
+                  loc: 191255,
+                },
+                {
+                  name: "pathC7",
+                  color: "hsl(273, 70%, 50%)",
+                  loc: 81866,
+                },
+                {
+                  name: "pathC8",
+                  color: "hsl(203, 70%, 50%)",
+                  loc: 143160,
+                },
+                {
+                  name: "pathC9",
+                  color: "hsl(162, 70%, 50%)",
+                  loc: 54629,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export const mockSunBurst = [
+  {
+    name: "nivo",
+    color: "hsl(191, 70%, 50%)",
+    children: [
+      {
+        name: "viz",
+        color: "hsl(151, 70%, 50%)",
+        children: [
+          {
+            name: "stack",
+            color: "hsl(252, 70%, 50%)",
+            children: [
+              {
+                name: "cchart",
+                color: "hsl(205, 70%, 50%)",
+                loc: 186993,
+              },
+              {
+                name: "xAxis",
+                color: "hsl(20, 70%, 50%)",
+                loc: 31721,
+              },
+              {
+                name: "yAxis",
+                color: "hsl(210, 70%, 50%)",
+                loc: 79880,
+              },
+              {
+                name: "layers",
+                color: "hsl(54, 70%, 50%)",
+                loc: 290,
+              },
+            ],
+          },
+          {
+            name: "ppie",
+            color: "hsl(229, 70%, 50%)",
+            children: [
+              {
+                name: "chart",
+                color: "hsl(261, 70%, 50%)",
+                children: [
+                  {
+                    name: "pie",
+                    color: "hsl(81, 70%, 50%)",
+                    children: [
+                      {
+                        name: "outline",
+                        color: "hsl(360, 70%, 50%)",
+                        loc: 196811,
+                      },
+                      {
+                        name: "slices",
+                        color: "hsl(87, 70%, 50%)",
+                        loc: 67288,
+                      },
+                      {
+                        name: "bbox",
+                        color: "hsl(84, 70%, 50%)",
+                        loc: 189351,
+                      },
+                    ],
+                  },
+                  {
+                    name: "donut",
+                    color: "hsl(50, 70%, 50%)",
+                    loc: 88706,
+                  },
+                  {
+                    name: "gauge",
+                    color: "hsl(242, 70%, 50%)",
+                    loc: 36066,
+                  },
+                ],
+              },
+              {
+                name: "legends",
+                color: "hsl(50, 70%, 50%)",
+                loc: 44054,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "colors",
+        color: "hsl(205, 70%, 50%)",
+        children: [
+          {
+            name: "rgb",
+            color: "hsl(177, 70%, 50%)",
+            loc: 111710,
+          },
+          {
+            name: "hsl",
+            color: "hsl(323, 70%, 50%)",
+            loc: 180343,
+          },
+        ],
+      },
+      {
+        name: "utils",
+        color: "hsl(191, 70%, 50%)",
+        children: [
+          {
+            name: "randomize",
+            color: "hsl(244, 70%, 50%)",
+            loc: 137053,
+          },
+          {
+            name: "resetClock",
+            color: "hsl(20, 70%, 50%)",
+            loc: 122022,
+          },
+          {
+            name: "noop",
+            color: "hsl(51, 70%, 50%)",
+            loc: 31298,
+          },
+          {
+            name: "tick",
+            color: "hsl(189, 70%, 50%)",
+            loc: 90924,
+          },
+          {
+            name: "forceGC",
+            color: "hsl(249, 70%, 50%)",
+            loc: 184475,
+          },
+          {
+            name: "stackTrace",
+            color: "hsl(311, 70%, 50%)",
+            loc: 39966,
+          },
+          {
+            name: "dbg",
+            color: "hsl(6, 70%, 50%)",
+            loc: 43720,
+          },
+        ],
+      },
+      {
+        name: "generators",
+        color: "hsl(168, 70%, 50%)",
+        children: [
+          {
+            name: "address",
+            color: "hsl(86, 70%, 50%)",
+            loc: 110403,
+          },
+          {
+            name: "city",
+            color: "hsl(240, 70%, 50%)",
+            loc: 4336,
+          },
+          {
+            name: "animal",
+            color: "hsl(296, 70%, 50%)",
+            loc: 185800,
+          },
+          {
+            name: "movie",
+            color: "hsl(95, 70%, 50%)",
+            loc: 28619,
+          },
+          {
+            name: "user",
+            color: "hsl(216, 70%, 50%)",
+            loc: 87667,
+          },
+        ],
+      },
+      {
+        name: "set",
+        color: "hsl(73, 70%, 50%)",
+        children: [
+          {
+            name: "clone",
+            color: "hsl(277, 70%, 50%)",
+            loc: 118503,
+          },
+          {
+            name: "intersect",
+            color: "hsl(40, 70%, 50%)",
+            loc: 147153,
+          },
+          {
+            name: "merge",
+            color: "hsl(40, 70%, 50%)",
+            loc: 135871,
+          },
+          {
+            name: "reverse",
+            color: "hsl(101, 70%, 50%)",
+            loc: 65154,
+          },
+          {
+            name: "toArray",
+            color: "hsl(52, 70%, 50%)",
+            loc: 109890,
+          },
+          {
+            name: "toObject",
+            color: "hsl(175, 70%, 50%)",
+            loc: 12663,
+          },
+          {
+            name: "fromCSV",
+            color: "hsl(225, 70%, 50%)",
+            loc: 5402,
+          },
+          {
+            name: "slice",
+            color: "hsl(214, 70%, 50%)",
+            loc: 66719,
+          },
+          {
+            name: "append",
+            color: "hsl(163, 70%, 50%)",
+            loc: 130656,
+          },
+          {
+            name: "prepend",
+            color: "hsl(279, 70%, 50%)",
+            loc: 129340,
+          },
+          {
+            name: "shuffle",
+            color: "hsl(196, 70%, 50%)",
+            loc: 93298,
+          },
+          {
+            name: "pick",
+            color: "hsl(10, 70%, 50%)",
+            loc: 189816,
+          },
+          {
+            name: "plouc",
+            color: "hsl(282, 70%, 50%)",
+            loc: 158676,
+          },
+        ],
+      },
+      {
+        name: "text",
+        color: "hsl(28, 70%, 50%)",
+        children: [
+          {
+            name: "trim",
+            color: "hsl(17, 70%, 50%)",
+            loc: 199376,
+          },
+          {
+            name: "slugify",
+            color: "hsl(220, 70%, 50%)",
+            loc: 118227,
+          },
+          {
+            name: "snakeCase",
+            color: "hsl(54, 70%, 50%)",
+            loc: 68503,
+          },
+          {
+            name: "camelCase",
+            color: "hsl(97, 70%, 50%)",
+            loc: 163392,
+          },
+          {
+            name: "repeat",
+            color: "hsl(286, 70%, 50%)",
+            loc: 10819,
+          },
+          {
+            name: "padLeft",
+            color: "hsl(46, 70%, 50%)",
+            loc: 1126,
+          },
+          {
+            name: "padRight",
+            color: "hsl(209, 70%, 50%)",
+            loc: 102439,
+          },
+          {
+            name: "sanitize",
+            color: "hsl(240, 70%, 50%)",
+            loc: 39070,
+          },
+          {
+            name: "ploucify",
+            color: "hsl(138, 70%, 50%)",
+            loc: 179376,
+          },
+        ],
+      },
+      {
+        name: "misc",
+        color: "hsl(126, 70%, 50%)",
+        children: [
+          {
+            name: "greetings",
+            color: "hsl(145, 70%, 50%)",
+            children: [
+              {
+                name: "hey",
+                color: "hsl(98, 70%, 50%)",
+                loc: 163497,
+              },
+              {
+                name: "HOWDY",
+                color: "hsl(229, 70%, 50%)",
+                loc: 185166,
+              },
+              {
+                name: "aloha",
+                color: "hsl(295, 70%, 50%)",
+                loc: 45362,
+              },
+              {
+                name: "AHOY",
+                color: "hsl(189, 70%, 50%)",
+                loc: 31288,
+              },
+            ],
+          },
+          {
+            name: "other",
+            color: "hsl(16, 70%, 50%)",
+            loc: 84821,
+          },
+          {
+            name: "path",
+            color: "hsl(185, 70%, 50%)",
+            children: [
+              {
+                name: "pathA",
+                color: "hsl(303, 70%, 50%)",
+                loc: 30958,
+              },
+              {
+                name: "pathB",
+                color: "hsl(202, 70%, 50%)",
+                children: [
+                  {
+                    name: "pathB1",
+                    color: "hsl(150, 70%, 50%)",
+                    loc: 175197,
+                  },
+                  {
+                    name: "pathB2",
+                    color: "hsl(198, 70%, 50%)",
+                    loc: 4102,
+                  },
+                  {
+                    name: "pathB3",
+                    color: "hsl(224, 70%, 50%)",
+                    loc: 34713,
+                  },
+                  {
+                    name: "pathB4",
+                    color: "hsl(20, 70%, 50%)",
+                    loc: 140282,
+                  },
+                ],
+              },
+              {
+                name: "pathC",
+                color: "hsl(198, 70%, 50%)",
+                children: [
+                  {
+                    name: "pathC1",
+                    color: "hsl(59, 70%, 50%)",
+                    loc: 73078,
+                  },
+                  {
+                    name: "pathC2",
+                    color: "hsl(274, 70%, 50%)",
+                    loc: 93157,
+                  },
+                  {
+                    name: "pathC3",
+                    color: "hsl(226, 70%, 50%)",
+                    loc: 10425,
+                  },
+                  {
+                    name: "pathC4",
+                    color: "hsl(342, 70%, 50%)",
+                    loc: 39124,
+                  },
+                  {
+                    name: "pathC5",
+                    color: "hsl(81, 70%, 50%)",
+                    loc: 67749,
+                  },
+                  {
+                    name: "pathC6",
+                    color: "hsl(96, 70%, 50%)",
+                    loc: 196020,
+                  },
+                  {
+                    name: "pathC7",
+                    color: "hsl(272, 70%, 50%)",
+                    loc: 176870,
+                  },
+                  {
+                    name: "pathC8",
+                    color: "hsl(256, 70%, 50%)",
+                    loc: 103143,
+                  },
+                  {
+                    name: "pathC9",
+                    color: "hsl(259, 70%, 50%)",
+                    loc: 111779,
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+];
 
 export const mockBarData = [
   {

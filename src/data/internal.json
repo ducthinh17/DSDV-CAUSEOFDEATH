@@ -1,0 +1,113 @@
+{
+  "name": "Internal",
+  "color": "#053929",
+  "children": [
+    {
+      "name": "Credit Risk",
+      "color": "#0F6046",
+      "children": [
+        {
+          "name": "Credit Decisioning",
+          "color": "#208D6A",
+          "size": 3
+        }
+      ]
+    },
+    {
+      "name": "Customer",
+      "color": "#0F6046",
+      "children": [
+        {
+          "name": "Customer Details",
+          "color": "#208D6A",
+          "size": 92
+        },
+        {
+          "name": "KYC",
+          "color": "#208D6A",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "name": "Financial Crime",
+      "color": "#0F6046",
+      "children": [
+        {
+          "name": "Fraud",
+          "color": "#208D6A",
+          "size": 2
+        }
+      ]
+    },
+    {
+      "name": "ID&Auth",
+      "color": "#0F6046",
+      "children": [
+        {
+          "name": "3rd Party Authentication",
+          "color": "#208D6A",
+          "size": 9
+        },
+        {
+          "name": "Customer Authentication",
+          "color": "#208D6A",
+          "size": 12
+        }
+      ]
+    },
+    {
+      "name": "Payments",
+      "color": "#0F6046",
+      "children": [
+        {
+          "name": "Payee Authentication",
+          "color": "#208D6A",
+          "size": 1
+        },
+        {
+          "name": "Payment Initiation",
+          "color": "#208D6A",
+          "size": 9
+        },
+        {
+          "name": "Payments Scheme Services",
+          "color": "#208D6A",
+          "size": 10
+        }
+      ]
+    },
+    {
+      "name": "Product",
+      "color": "#0F6046",
+      "children": [
+        {
+          "name": "Account",
+          "color": "#208D6A",
+          "size": 13
+        },
+        {
+          "name": "Card",
+          "color": "#208D6A",
+          "size": 4
+        }
+      ]
+    },
+    {
+      "name": "Utilities",
+      "color": "#0F6046",
+      "children": [
+        {
+          "name": "Industry Data Services",
+          "color": "#208D6A",
+          "size": 3
+        },
+        {
+          "name": "Customer Authentication",
+          "color": "#208D6A",
+          "size": 1
+        }
+      ]
+    }
+  ]
+}
