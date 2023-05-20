@@ -40,9 +40,7 @@ const MyResponsiveSunburst = ({ isDashboard = false }) =>{
             legends: {
               text: {
                 fill: colors.grey[100],
-                
               },
-              
             },
           }}
         margin={{ top: 10, right: 10, bottom: 10, left: 10 }}
@@ -71,6 +69,7 @@ const MyResponsiveSunburst = ({ isDashboard = false }) =>{
                 ]
             ]
         }}
+        
     />
     )}
 
