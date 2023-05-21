@@ -2,8 +2,8 @@ import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
 import { tokens } from "../../theme";
 import { mockTransactions } from "../../data/mockData";
 import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
-import EmailIcon from "@mui/icons-material/Email";
-import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
+import AccessibilityIcon from '@mui/icons-material/Accessibility';
+import PersonSearchIcon from '@mui/icons-material/PersonSearch';
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import TrafficIcon from "@mui/icons-material/Traffic";
 import Header from "../../components/Header";
@@ -55,12 +55,12 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="12,361"
-            subtitle="Emails Sent"
+            title="150K"
+            subtitle="Deaths/day"
             progress="0.75"
-            increase="+14%"
+            increase="+1.5%"
             icon={
-              <EmailIcon
+              <AccessibilityIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
               />
             }
@@ -74,12 +74,12 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="431,225"
-            subtitle="Sales Obtained"
+            title="335M"
+            subtitle="New infections"
             progress="0.50"
             increase="+21%"
             icon={
-              <PointOfSaleIcon
+              <PersonSearchIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
               />
             }
@@ -93,10 +93,10 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="32,441"
-            subtitle="New Clients"
+            title="0.0191%"
+            subtitle="Child mortality"
             progress="0.30"
-            increase="+5%"
+            increase="-50%"
             icon={
               <PersonAddIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
@@ -112,10 +112,10 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="1,325,134"
-            subtitle="Traffic Received"
+            title="1.35M"
+            subtitle="Traffic accident"
             progress="0.80"
-            increase="+43%"
+            increase="-17%"
             icon={
               <TrafficIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
@@ -143,14 +143,14 @@ const Dashboard = () => {
                 fontWeight="600"
                 color={colors.grey[100]}
               >
-                Revenue Generated
+                Estimated fatal types:
               </Typography>
               <Typography
                 variant="h3"
                 fontWeight="bold"
                 color={colors.greenAccent[500]}
               >
-                $59,342.32
+                ~170,048 💀 
               </Typography>
             </Box>
             <Box>
@@ -180,7 +180,7 @@ const Dashboard = () => {
             p="15px"
           >
             <Typography color={colors.grey[100]} variant="h5" fontWeight="600">
-              Recent Transactions
+              Recent Donate
             </Typography>
           </Box>
           {mockTransactions.map((transaction, i) => (
@@ -254,7 +254,7 @@ const Dashboard = () => {
             backgroundColor={"teal"}
             sx={{ padding: "30px 30px 0 30px" }}
           >
-            Sales Quantity
+            Death & GDP
           </Typography>
           <Box height="250px" mt="-20px"
           backgroundColor={"teal"}>

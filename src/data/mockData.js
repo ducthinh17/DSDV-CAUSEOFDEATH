@@ -3,76 +3,37 @@ import { tokens } from "../theme";
 export const mockDataTeam = [
   {
     id: 1,
-    name: "Jon Snow",
-    email: "jonsnow@gmail.com",
-    age: 35,
-    phone: "(665)121-5454",
+    name: "Pham Le Duc Thinh",
+    email: "pldthinh.ityu@gmail.com",
+    age: 21,
+    phone: "0356524***",
     access: "admin",
   },
   {
     id: 2,
-    name: "Cersei Lannister",
-    email: "cerseilannister@gmail.com",
-    age: 42,
-    phone: "(421)314-2288",
-    access: "manager",
+    name: "Nguyen Thanh Binh",
+    email: "ntbinh.ityu@gmail.com",
+    age: 21,
+    phone: "01234455***",
+    access: "admin",
   },
   {
     id: 3,
-    name: "Jaime Lannister",
-    email: "jaimelannister@gmail.com",
-    age: 45,
-    phone: "(422)982-6739",
-    access: "user",
+    name: "Tran Bac Chuong",
+    email: "tbchuong@gmail.com",
+    age: 21,
+    phone: "011223344***",
+    access: "admin",
   },
   {
     id: 4,
-    name: "Anya Stark",
-    email: "anyastark@gmail.com",
-    age: 16,
-    phone: "(921)425-6742",
+    name: "Hang Huynh Cong Thuan",
+    email: "hhcthuan@gmail.com",
+    age: 21,
+    phone: "011223344***",
     access: "admin",
   },
-  {
-    id: 5,
-    name: "Daenerys Targaryen",
-    email: "daenerystargaryen@gmail.com",
-    age: 31,
-    phone: "(421)445-1189",
-    access: "user",
-  },
-  {
-    id: 6,
-    name: "Ever Melisandre",
-    email: "evermelisandre@gmail.com",
-    age: 150,
-    phone: "(232)545-6483",
-    access: "manager",
-  },
-  {
-    id: 7,
-    name: "Ferrara Clifford",
-    email: "ferraraclifford@gmail.com",
-    age: 44,
-    phone: "(543)124-0123",
-    access: "user",
-  },
-  {
-    id: 8,
-    name: "Rossini Frances",
-    email: "rossinifrances@gmail.com",
-    age: 36,
-    phone: "(222)444-5555",
-    access: "user",
-  },
-  {
-    id: 9,
-    name: "Harvey Roxie",
-    email: "harveyroxie@gmail.com",
-    age: 65,
-    phone: "(444)555-6239",
-    access: "admin",
-  },
+  
 ];
 
 export const mockDataContacts = [
@@ -433,7 +394,7 @@ export const sunBurstSampleData = {
       
       "name": "South_Central_Asia",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "children": [
       
@@ -441,7 +402,7 @@ export const sunBurstSampleData = {
       
       "name": "Afghanistan",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 4282
       
@@ -451,7 +412,7 @@ export const sunBurstSampleData = {
       
       "name": "Bahrain",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 276
       
@@ -461,7 +422,7 @@ export const sunBurstSampleData = {
       
       "name": "Bangladesh",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 4434
       
@@ -471,7 +432,7 @@ export const sunBurstSampleData = {
       
       "name": "Bhutan",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 615
       
@@ -481,7 +442,7 @@ export const sunBurstSampleData = {
       
       "name": "Cyprus",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 83
       
@@ -491,7 +452,7 @@ export const sunBurstSampleData = {
       
       "name": "East Timor",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 0
       
@@ -501,7 +462,7 @@ export const sunBurstSampleData = {
       
       "name": "India",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 2454374
       
@@ -511,7 +472,7 @@ export const sunBurstSampleData = {
       
       "name": "Iran",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 12695
       
@@ -521,7 +482,7 @@ export const sunBurstSampleData = {
       
       "name": "Iraq",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 1451
       
@@ -531,7 +492,7 @@ export const sunBurstSampleData = {
       
       "name": "Israel",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 1186
       
@@ -541,7 +502,7 @@ export const sunBurstSampleData = {
       
       "name": "Jordan",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 400
       
@@ -551,7 +512,7 @@ export const sunBurstSampleData = {
       
       "name": "Kazakhstan",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 7614
       
@@ -561,7 +522,7 @@ export const sunBurstSampleData = {
       
       "name": "Kuwait",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 77
       
@@ -571,7 +532,7 @@ export const sunBurstSampleData = {
       
       "name": "Kyrgyzstan",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 3767
       
@@ -581,7 +542,7 @@ export const sunBurstSampleData = {
       
       "name": "Laos",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 6315
       
@@ -591,7 +552,7 @@ export const sunBurstSampleData = {
       
       "name": "Lebanon",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 1906
       
@@ -601,7 +562,7 @@ export const sunBurstSampleData = {
       
       "name": "Maldives",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 12
       
@@ -611,7 +572,7 @@ export const sunBurstSampleData = {
       
       "name": "Myanmar",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 268570
       
@@ -621,7 +582,7 @@ export const sunBurstSampleData = {
       
       "name": "Nepal",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 34487
       
@@ -631,7 +592,7 @@ export const sunBurstSampleData = {
       
       "name": "Oman",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 1388
       
@@ -641,7 +602,7 @@ export const sunBurstSampleData = {
       
       "name": "Pakistan",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 36968
       
@@ -651,7 +612,7 @@ export const sunBurstSampleData = {
       
       "name": "Palestine",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 223
       
@@ -661,7 +622,7 @@ export const sunBurstSampleData = {
       
       "name": "Qatar",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 101
       
@@ -671,7 +632,7 @@ export const sunBurstSampleData = {
       
       "name": "Russia",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 350679
       
@@ -681,7 +642,7 @@ export const sunBurstSampleData = {
       
       "name": "Saudi Arabia",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 11106
       
@@ -691,7 +652,7 @@ export const sunBurstSampleData = {
       
       "name": "Singapore",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 1241
       
@@ -701,7 +662,7 @@ export const sunBurstSampleData = {
       
       "name": "Syria",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 541
       
@@ -711,7 +672,7 @@ export const sunBurstSampleData = {
       
       "name": "Tajikistan",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 2325
       
@@ -721,7 +682,7 @@ export const sunBurstSampleData = {
       
       "name": "Thailand",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 618532
       
@@ -731,7 +692,7 @@ export const sunBurstSampleData = {
       
       "name": "Turkey",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 2970
       
@@ -741,7 +702,7 @@ export const sunBurstSampleData = {
       
       "name": "Turkmenistan",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 3950
       
@@ -751,7 +712,7 @@ export const sunBurstSampleData = {
       
       "name": "United Arab Emirates",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 1866
       
@@ -761,7 +722,7 @@ export const sunBurstSampleData = {
       
       "name": "Uzbekistan",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 12309
       
@@ -771,7 +732,7 @@ export const sunBurstSampleData = {
       
       "name": "Yemen",
       
-      "color": "blue",
+      "color": "#FFA500",
       
       "loc": 6276
       
@@ -1415,170 +1376,145 @@ export const mockPieData = [
   },
 ];
 
-export const mockLineData = [
+
+export const mockLineData=[
   {
-    id: "japan",
+    id: "Chronic Kidney Disease",
     color: tokens("dark").greenAccent[500],
     data: [
       {
-        x: "plane",
-        y: 101,
+        x: "1990",
+        y: 24.665,
       },
       {
-        x: "helicopter",
-        y: 75,
+        x: "1995",
+        y: 27.779,
       },
       {
-        x: "boat",
-        y: 36,
+        x: "2000",
+        y: 30.297,
       },
       {
-        x: "train",
-        y: 216,
+        x: "2005",
+        y: 32.492,
       },
       {
-        x: "subway",
-        y: 35,
+        x: "2010",
+        y: 39.898,
       },
       {
-        x: "bus",
-        y: 236,
+        x: "2015",
+        y: 49.754,
       },
       {
-        x: "car",
-        y: 88,
-      },
-      {
-        x: "moto",
-        y: 232,
-      },
-      {
-        x: "bicycle",
-        y: 281,
-      },
-      {
-        x: "horse",
-        y: 1,
-      },
-      {
-        x: "skateboard",
-        y: 35,
-      },
-      {
-        x: "others",
-        y: 14,
+        x: "2019",
+        y: 59.185,
       },
     ],
   },
   {
-    id: "france",
-    color: tokens("dark").blueAccent[300],
+    id: "Digestive Diseases",
+    color: tokens("dark").blueAccent[500],
     data: [
       {
-        x: "plane",
-        y: 212,
+        x: "1990",
+        y: 47.450,
       },
       {
-        x: "helicopter",
-        y: 190,
+        x: "1995",
+        y: 50.966,
       },
       {
-        x: "boat",
-        y: 270,
+        x: "2000",
+        y: 51.935,
       },
       {
-        x: "train",
-        y: 9,
+        x: "2005",
+        y: 53.140,
       },
       {
-        x: "subway",
-        y: 75,
+        x: "2010",
+        y: 59.281,
       },
       {
-        x: "bus",
-        y: 175,
+        x: "2015",
+        y: 67.425,
       },
       {
-        x: "car",
-        y: 33,
-      },
-      {
-        x: "moto",
-        y: 189,
-      },
-      {
-        x: "bicycle",
-        y: 97,
-      },
-      {
-        x: "horse",
-        y: 87,
-      },
-      {
-        x: "skateboard",
-        y: 299,
-      },
-      {
-        x: "others",
-        y: 251,
+        x: "2019",
+        y: 76.030,
       },
     ],
   },
   {
-    id: "us",
-    color: tokens("dark").redAccent[200],
+    id: "Interpersonal Violence",
+    color: tokens("dark").redAccent[500],
     data: [
       {
-        x: "plane",
-        y: 191,
+        x: "1990",
+        y: 34.906,
       },
       {
-        x: "helicopter",
-        y: 136,
+        x: "1995",
+        y: 39.188,
       },
       {
-        x: "boat",
-        y: 91,
+        x: "2000",
+        y: 44.758,
       },
       {
-        x: "train",
-        y: 190,
+        x: "2005",
+        y: 29.049,
       },
       {
-        x: "subway",
-        y: 211,
+        x: "2010",
+        y: 25.697,
       },
       {
-        x: "bus",
-        y: 152,
+        x: "2015",
+        y: 20.705,
       },
       {
-        x: "car",
-        y: 189,
-      },
-      {
-        x: "moto",
-        y: 152,
-      },
-      {
-        x: "bicycle",
-        y: 8,
-      },
-      {
-        x: "horse",
-        y: 197,
-      },
-      {
-        x: "skateboard",
-        y: 107,
-      },
-      {
-        x: "others",
-        y: 170,
+        x: "2019",
+        y: 22.388,
       },
     ],
   },
-];
+  {
+    id: "Neonatal Disorders",
+    color: "green",
+    data: [
+      {
+        x: "1990",
+        y: 52.206,
+      },
+      {
+        x: "1995",
+        y: 42.519,
+      },
+      {
+        x: "2000",
+        y: 32.949,
+      },
+      {
+        x: "2005",
+        y: 26.792,
+      },
+      {
+        x: "2010",
+        y: 21.934,
+      },
+      {
+        x: "2015",
+        y: 16.435,
+      },
+      {
+        x: "2019",
+        y: 12.445,
+      },
+    ],
+  },
+ ];
 
 export const mockGeographyData = [
   {
