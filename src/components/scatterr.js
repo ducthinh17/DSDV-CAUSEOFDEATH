@@ -1,5 +1,8 @@
 // install (please try to align the version of installed @nivo packages)
 // yarn add @nivo/scatterplot\
+import React from 'react';
+// import ReactDOM from 'react-dom';
+// import * as V from 'victory';
 import { useTheme } from "@mui/material";
 import { tokens } from "../theme";
 import { mockScatter as data } from "../data/mockData";
@@ -10,14 +13,34 @@ import { ResponsiveScatterPlot } from "@nivo/scatterplot";
 // no chart will be rendered.
 // website examples showcase many properties,
 // you'll often use just a few of them.
+
 const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
+  const Tooltip = ({ node }) => (
+    <div
+      style={{
+        background: "white",
+        padding: "10px",
+        border: "1px solid #ccc",
+        color: "black",
+      }}
+    >
+      <strong>{node.id}</strong> <br />
+    </div>
+  );
+
   return (
     <ResponsiveScatterPlot
       data={data}
       theme={{
-        // added
+        background: "#f0f0f0",
+        text: {
+          fontSize: 13,
+          fill: "#333333",
+          outlineWidth: 0,
+          outlineColor: "transparent",
+        },
         axis: {
           domain: {
             line: {
@@ -45,6 +68,7 @@ const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
           },
         },
       }}
+      tooltip={Tooltip}
       margin={{ top: 60, right: 140, bottom: 70, left: 90 }}
       xScale={{ type: "linear", min: 0, max: "auto" }}
       xFormat=">-.2f"

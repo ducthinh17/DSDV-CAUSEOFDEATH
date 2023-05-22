@@ -1,6 +1,8 @@
 // install (please try to align the version of installed @nivo packages)
 // yarn add @nivo/scatterplot\
-import React from "react";
+import React from 'react';
+// import ReactDOM from 'react-dom';
+// import * as V from 'victory';
 import { useTheme } from "@mui/material";
 import { tokens } from "../theme";
 import { mockScatter as data } from "../data/mockData";

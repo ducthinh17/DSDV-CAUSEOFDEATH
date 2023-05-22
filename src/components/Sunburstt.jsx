@@ -84,6 +84,7 @@ const MyResponsiveSunburst = ({ isDashboard = false }) => {
             backgroundColor: "darkslategray",
             marginLeft: "80%",
             marginTop: "-10%",
+            
           }}
         >
           <thead>

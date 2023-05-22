@@ -8,8 +8,10 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
   const colors = tokens(theme.palette.mode);
 
   return (
-    <ResponsiveLine
+    
+    <ResponsiveLine 
       data={data}
+      
       theme={{
         axis: {
           domain: {
