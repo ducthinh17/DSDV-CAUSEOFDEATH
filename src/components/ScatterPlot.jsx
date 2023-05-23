@@ -1,50 +1,67 @@
-// install (please try to align the version of installed @nivo packages)
-// yarn add @nivo/scatterplot\
 import React from 'react';
-// import ReactDOM from 'react-dom';
-// import * as V from 'victory';
-import { useTheme } from "@mui/material";
-import { tokens } from "../theme";
-import { mockScatter as data } from "../data/mockData";
-import { ResponsiveScatterPlot } from "@nivo/scatterplot";
+import {
+  VictoryChart,
+  VictoryScatter,
+  VictoryZoomContainer,
+  VictoryAxis,
+  VictoryTooltip,
+  VictoryLabel
+} from 'victory';
+import { useTheme } from '@mui/material';
+import { tokens } from '../theme';
 
-// make sure parent container have a defined height when using
-// responsive component, otherwise height will be 0 and
-// no chart will be rendered.
-// website examples showcase many properties,
-// you'll often use just a few of them.
 const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-  const Tooltip = ({ node }) => (
-    <div
-      style={{
-        background: "white",
-        padding: "10px",
-        border: "1px solid #ccc",
-        color: "black",
-      }}
-    >
-      <strong>{node.id}</strong> <br />
-    </div>
-  );
+
+  const getScatterData = () => [
+    {
+      id: 'East Asia',
+      data: [
+        { x: 5081.71, y: 26540810 },
+        { x: 2240.77, y: 643715 },
+      ],
+    },
+    {
+      id: 'South Central Asia',
+      data: [
+        { x: 1127.45, y: 5982631 },
+        { x: 5591.85, y: 783174 },
+        { x: 2600.94, y: 2028238 },
+        { x: 4977.26, y: 1611980 },
+        { x: 4718.45, y: 4526448 },
+        { x: 1205.12, y: 1118630 },
+        { x: 564.01, y: 38151878 },
+        { x: 853.34, y: 1335833 },
+        { x: 6515.5, y: 919328 },
+        { x: 1632.32, y: 5581614 },
+      ],
+    },
+    {
+      id: 'Southeast Asia',
+      data: [
+        { x: 504.96, y: 24803502 },
+        { x: 1521.89, y: 119148 },
+        { x: 1213.81, y: 3177198 },
+        { x: 1551.58, y: 44046941 },
+        { x: 5897.72, y: 3387621 },
+        { x: 624.77, y: 13486764 },
+        { x: 618.87, y: 5159447 },
+        { x: 2102.28, y: 3479255 },
+        { x: 3530, y: 11358484 },
+      ],
+    },
+  ];
+
+  const data = getScatterData();
 
   return (
-    <ResponsiveScatterPlot
-      data={data}
+    <VictoryChart
       theme={{
-        background: "#f0f0f0",
-        text: {
-          fontSize: 13,
-          fill: "#333333",
-          outlineWidth: 0,
-          outlineColor: "transparent",
-        },
+        background: '#f0f0f0',
         axis: {
           domain: {
-            line: {
-              stroke: colors.grey[100],
-            },
+            stroke: colors.grey[100],
           },
           legend: {
             text: {
@@ -52,72 +69,80 @@ const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
             },
           },
           ticks: {
-            line: {
-              stroke: colors.grey[100],
-              strokeWidth: 1,
-            },
-            text: {
-              fill: colors.grey[100],
-            },
+            stroke: colors.grey[100],
+            size: 5,
+            padding: 5,
           },
-        },
-        legends: {
-          text: {
+          tickLabels: {
             fill: colors.grey[100],
+            fontSize: 13,
+          },
+        },
+        scatter: {
+          data: {
+            fill: ({ datum }) => (datum.y % 5 === 0 ? 'tomato' : 'black'),
+            opacity: ({ datum }) => (datum.y % 5 === 0 ? 1 : 0.7),
           },
         },
       }}
-      tooltip={Tooltip}
-      margin={{ top: 60, right: 140, bottom: 70, left: 90 }}
-      xScale={{ type: "linear", min: 0, max: "auto" }}
-      xFormat=">-.2f"
-      yScale={{ type: "linear", min: 0, max: "auto" }}
-      yFormat=">-.2f"
-      blendMode="multiply"
-      axisTop={null}
-      axisRight={null}
-      axisBottom={{
-        orient: "bottom",
-        tickSize: 5,
-        tickPadding: 5,
-        tickRotation: 0,
-        legend: "weight",
-        legendPosition: "middle",
-        legendOffset: 46,
-      }}
-      axisLeft={{
-        orient: "left",
-        tickSize: 5,
-        tickPadding: 5,
-        tickRotation: 0,
-        legend: "size",
-        legendPosition: "middle",
-        legendOffset: -60,
-      }}
-      legends={[
-        {
-          anchor: "bottom-right",
-          direction: "column",
-          justify: false,
-          translateX: 130,
-          translateY: 0,
-          itemWidth: 100,
-          itemHeight: 12,
-          itemsSpacing: 5,
-          itemDirection: "left-to-right",
-          symbolSize: 12,
-          symbolShape: "circle",
-          effects: [
-            {
-              on: "hover",
-              style: {
-                itemOpacity: 1,
-              },
+      width={500}
+      height={400}
+    >
+      {data.map((scatterData, index) => (
+        <VictoryScatter
+          key={index}
+          data={scatterData.data}
+          x="x"
+          y="y"
+          labels={({ datum }) => `(${datum.x}, ${datum.y})`}
+          labelComponent={<VictoryTooltip />}
+          style={{
+            data: {
+              fill: index === 0 ? 'tomato' : index === 1 ? 'blue' : 'green',
+              opacity: 1,
             },
-          ],
-        },
-      ]}
-    />
+          }}
+          size={5}
+        />
+      ))}
+
+      <VictoryLabel
+        text="Scatter Plot"
+        x={250}
+        y={30}
+        textAnchor="middle"
+        style={{
+          fill: colors.grey[100],
+          fontSize: 20,
+          fontWeight: 'bold',
+        }}
+      />
+      <VictoryLabel
+        text="X Axis Label"
+        x={250}
+        y={380}
+        textAnchor="middle"
+        style={{
+          fill: colors.grey[100],
+          fontSize: 14,
+          fontWeight: 'bold',
+        }}
+      />
+      <VictoryLabel
+        text="Y Axis Label"
+        x={20}
+        y={200}
+        textAnchor="middle"
+        angle={-90}
+        style={{
+          fill: colors.grey[100],
+          fontSize: 14,
+          fontWeight: 'bold',
+        }}
+      />
+      <VictoryZoomContainer zoomDomain={{ x: [0, 7.000], y: [0, 45.000] }} />
+    </VictoryChart>
   );
 };
+
 export default MyResponsiveScatterPlot;

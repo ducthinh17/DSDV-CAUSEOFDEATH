@@ -1,18 +1,12 @@
-// install (please try to align the version of installed @nivo packages)
-// yarn add @nivo/scatterplot\
-import React from 'react';
-// import ReactDOM from 'react-dom';
-// import * as V from 'victory';
+
+import React, { useState } from 'react';
+import { VictoryChart, VictoryScatter, VictoryZoomContainer } from 'victory';
+import { range, random } from 'lodash';
 import { useTheme } from "@mui/material";
 import { tokens } from "../theme";
 import { mockScatter as data } from "../data/mockData";
 import { ResponsiveScatterPlot } from "@nivo/scatterplot";
 
-// make sure parent container have a defined height when using
-// responsive component, otherwise height will be 0 and
-// no chart will be rendered.
-// website examples showcase many properties,
-// you'll often use just a few of them.
 
 const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
   const theme = useTheme();
