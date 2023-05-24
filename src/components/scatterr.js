@@ -1,7 +1,9 @@
 
-import React, { useState } from 'react';
-import { VictoryChart, VictoryScatter, VictoryZoomContainer } from 'victory';
-import { range, random } from 'lodash';
+import React from 'react';
+// import React, { useState } from 'react';
+
+// import { VictoryChart, VictoryScatter, VictoryZoomContainer } from 'victory';
+// import { range, random } from 'lodash';
 import { useTheme } from "@mui/material";
 import { tokens } from "../theme";
 import { mockScatter as data } from "../data/mockData";

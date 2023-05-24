@@ -18,13 +18,13 @@ import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
-  const theme = useTheme();
-  const colors = tokens(theme.palette.mode);
+  // const theme = useTheme();
+  // const colors = tokens(theme.palette.mode);
   return (
     <MenuItem
       active={selected === title}
       style={{
-        color: colors.grey[100],
+        color: "#BDCDD6",
       }}
       onClick={() => setSelected(title)}
       icon={icon}
@@ -45,7 +45,7 @@ const Sidebar = () => {
     <Box
       sx={{
         "& .pro-sidebar-inner": {
-          background: `${colors.primary[400]} !important`,
+          background: `${"#393646"} !important`,
         },
         "& .pro-icon-wrapper": {
           backgroundColor: "transparent !important",
@@ -69,7 +69,7 @@ const Sidebar = () => {
             icon={isCollapsed ? <MenuOutlinedIcon /> : undefined}
             style={{
               margin: "10px 0 20px 0",
-              color: colors.grey[100],
+              color: "colors.grey[100]",
             }}
           >
             {!isCollapsed && (
@@ -79,8 +79,8 @@ const Sidebar = () => {
                 alignItems="center"
                 ml="15px"
               >
-                <Typography variant="h3" color={colors.grey[100]}>
-                  ADMINIS
+                <Typography variant="h3" color={"#84D2C5"}>
+                  ADMINS
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -107,10 +107,10 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Paradise
+                  DISEASES
                 </Typography>
-                <Typography variant="h5" color={colors.greenAccent[500]}>
-                  Fancy, You're so lucky to be here. 
+                <Typography variant="h5" color="#b9f3e4">
+                  Understand the disease of our world
                   <p> Enjoy it!</p>
                 </Typography>
               </Box>
@@ -186,7 +186,7 @@ const Sidebar = () => {
 
             <Typography
               variant="h6"
-              color={colors.grey[300]}
+              color={"colors.grey[300]"}
               sx={{ m: "15px 0 5px 20px" }}
             >
               Charts

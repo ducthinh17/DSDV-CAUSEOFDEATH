@@ -18,15 +18,14 @@ const Dashboard = () => {
   const colors = tokens(theme.palette.mode);
 
   return (
-    <Box m="20px">
+    <Box m="20px" >
       {/* HEADER */}
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
-
+        <Header title="DASHBOARD" subtitle="Welcome to your project" />
         <Box>
           <Button
             sx={{
-              backgroundColor: colors.blueAccent[700],
+              backgroundColor: "colors.blueAccent[500]",
               color: colors.grey[100],
               fontSize: "14px",
               fontWeight: "bold",
@@ -49,7 +48,7 @@ const Dashboard = () => {
         {/* ROW 1 */}
         <Box
           gridColumn="span 3"
-          backgroundColor={colors.primary[400]}
+          backgroundColor="#363646"
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -57,7 +56,7 @@ const Dashboard = () => {
           <StatBox
             title="150K"
             subtitle="Deaths/day"
-            progress="0.75"
+            progress="0.15"
             increase="+1.5%"
             icon={
               <AccessibilityIcon
@@ -68,7 +67,7 @@ const Dashboard = () => {
         </Box>
         <Box
           gridColumn="span 3"
-          backgroundColor={colors.primary[400]}
+          backgroundColor={"#363646"}
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -76,7 +75,7 @@ const Dashboard = () => {
           <StatBox
             title="335M"
             subtitle="New infections"
-            progress="0.50"
+            progress="0.21"
             increase="+21%"
             icon={
               <PersonSearchIcon
@@ -87,7 +86,7 @@ const Dashboard = () => {
         </Box>
         <Box
           gridColumn="span 3"
-          backgroundColor={colors.primary[400]}
+          backgroundColor={"#363646"}
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -95,7 +94,7 @@ const Dashboard = () => {
           <StatBox
             title="0.0191%"
             subtitle="Child mortality"
-            progress="0.30"
+            progress="0.5"
             increase="-50%"
             icon={
               <PersonAddIcon
@@ -106,7 +105,7 @@ const Dashboard = () => {
         </Box>
         <Box
           gridColumn="span 3"
-          backgroundColor={colors.primary[400]}
+          backgroundColor={"#363646"}
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -114,7 +113,7 @@ const Dashboard = () => {
           <StatBox
             title="1.35M"
             subtitle="Traffic accident"
-            progress="0.80"
+            progress="0.83"
             increase="-17%"
             icon={
               <TrafficIcon
@@ -128,7 +127,7 @@ const Dashboard = () => {
         <Box
           gridColumn="span 8"
           gridRow="span 2"
-          backgroundColor={colors.primary[400]}
+          backgroundColor={"#363646"}
         >
           <Box
             mt="25px"
@@ -168,7 +167,7 @@ const Dashboard = () => {
         <Box
           gridColumn="span 4"
           gridRow="span 2"
-          backgroundColor={colors.primary[400]}
+          backgroundColor={"#363646"}
           overflow="auto"
         >
           <Box
@@ -220,7 +219,7 @@ const Dashboard = () => {
         <Box
           gridColumn="span 4"
           gridRow="span 2"
-          backgroundColor={colors.primary[400]}
+          backgroundColor={"#363646"}
           p="30px"
         >
           <Typography variant="h5" fontWeight="600">
@@ -246,18 +245,18 @@ const Dashboard = () => {
         <Box
           gridColumn="span 4"
           gridRow="span 2"
-          backgroundColor={colors.primary[400]}
+          backgroundColor={"#363646"}
         >
           <Typography
             variant="h5"
+            ariant="h5"
             fontWeight="600"
-            backgroundColor={"teal"}
             sx={{ padding: "30px 30px 0 30px" }}
           >
             Death & GDP
           </Typography>
           <Box height="250px" mt="-20px"
-          backgroundColor={"teal"}>
+          backgroundColor={"#363646"}>
             <BarChart isDashboard={true} />
           </Box>
           
@@ -265,7 +264,7 @@ const Dashboard = () => {
         <Box
           gridColumn="span 4"
           gridRow="span 2"
-          backgroundColor={colors.primary[400]}
+          backgroundColor={"#363646"}
           padding="30px"
           
         >

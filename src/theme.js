@@ -74,7 +74,7 @@ export const tokens = (mode) => ({
           900: "#e0e0e0",
         },
         primary: {
-          100: "#040509",
+          100: "#6D5D6E",
           200: "#080b12",
           300: "#0c101b",
           400: "#f2f0f0", // manually changed
@@ -117,8 +117,11 @@ export const tokens = (mode) => ({
           800: "#c3c6fd",
           900: "#e1e2fe",
         },
-        yellow:{
-          100: "#FFD700",
+        colorAccent: {
+          100: "#393646",
+          200: "#4F4557",
+          300: "#b9f3e4",
+          400: "#6D5D6E",
         },
       }),
 });

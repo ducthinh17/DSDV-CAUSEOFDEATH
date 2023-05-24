@@ -3,7 +3,7 @@ import {
   VictoryChart,
   VictoryScatter,
   VictoryZoomContainer,
-  VictoryAxis,
+  // VictoryAxis,
   VictoryTooltip,
   VictoryLabel
 } from 'victory';
@@ -16,39 +16,44 @@ const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
 
   const getScatterData = () => [
     {
-      id: 'East Asia',
+      id: 'Afghanistan',
       data: [
-        { x: 5081.71, y: 26540810 },
-        { x: 2240.77, y: 643715 },
+        {'x':  4235  , 'y':  2159 },
+        {'x':  4927  , 'y':  2218 },
+        {'x':  6123  , 'y':  2475 },
+        {'x':  8174  , 'y':  2812 },
+        {'x':  8215  , 'y':  3027 },
+        {'x':  9566  , 'y':  3102 },
+        {'x':  9682  , 'y':  3193 },
+        {'x':  10656  , 'y':  3304 },
       ],
     },
     {
-      id: 'South Central Asia',
+      id: 'Thailand',
       data: [
-        { x: 1127.45, y: 5982631 },
-        { x: 5591.85, y: 783174 },
-        { x: 2600.94, y: 2028238 },
-        { x: 4977.26, y: 1611980 },
-        { x: 4718.45, y: 4526448 },
-        { x: 1205.12, y: 1118630 },
-        { x: 564.01, y: 38151878 },
-        { x: 853.34, y: 1335833 },
-        { x: 6515.5, y: 919328 },
-        { x: 1632.32, y: 5581614 },
+        
+        {'x':  7345  , 'y':  1359 },
+        {'x':  6899  , 'y':  1324 },
+        {'x':  6484  , 'y':  1300 },
+        {'x':  6194  , 'y':  1296 },
+        {'x':  5997  , 'y':  1320 },
+        {'x':  5742  , 'y':  1342 },
+        {'x':  5477  , 'y':  1359 },
+        {'x':  5185  , 'y':  1249 },
+
       ],
     },
     {
-      id: 'Southeast Asia',
+      id: 'Vietnam',
       data: [
-        { x: 504.96, y: 24803502 },
-        { x: 1521.89, y: 119148 },
-        { x: 1213.81, y: 3177198 },
-        { x: 1551.58, y: 44046941 },
-        { x: 5897.72, y: 3387621 },
-        { x: 624.77, y: 13486764 },
-        { x: 618.87, y: 5159447 },
-        { x: 2102.28, y: 3479255 },
-        { x: 3530, y: 11358484 },
+        {'x':  7933  , 'y':  2049 },
+        {'x':  7561  , 'y':  2078 },
+        {'x':  7264  , 'y':  1939 },
+        {'x':  6753  , 'y':  1829 },
+        {'x':  6339  , 'y':  1757 },
+        {'x':  5882  , 'y':  1659 },
+        {'x':  5379  , 'y':  1570 },
+        {'x':  4978  , 'y':  1466 },
       ],
     },
   ];
@@ -107,35 +112,36 @@ const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
       ))}
 
       <VictoryLabel
-        text="Scatter Plot"
+        text="Exploring the Relationship between Meningitis and Diarrhea"
         x={250}
-        y={30}
+        y={10}
         textAnchor="middle"
         style={{
-          fill: colors.grey[100],
-          fontSize: 20,
+          fill: "brown",
+          fontSize: 18,
           fontWeight: 'bold',
+          
         }}
       />
       <VictoryLabel
-        text="X Axis Label"
+        text="Diarrheal Diseases (unit)"
         x={250}
         y={380}
         textAnchor="middle"
         style={{
-          fill: colors.grey[100],
+          fill: "grey",
           fontSize: 14,
           fontWeight: 'bold',
         }}
       />
       <VictoryLabel
-        text="Y Axis Label"
-        x={20}
+        text="Meningitis (unit)"
+        x={5}
         y={200}
         textAnchor="middle"
         angle={-90}
         style={{
-          fill: colors.grey[100],
+          fill: "grey",
           fontSize: 14,
           fontWeight: 'bold',
         }}
