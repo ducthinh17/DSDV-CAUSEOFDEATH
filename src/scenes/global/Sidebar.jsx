@@ -193,14 +193,14 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Scatter Plot"
-              to="/bar"
+              to="/scatter"
               icon={<ScatterPlotIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Sunburst Chart"
-              to="/pie"
+              to="/sunburst"
               icon={<PieChartOutlineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
