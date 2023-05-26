@@ -52,7 +52,7 @@ But we don't stop there. The last circle of the sunburst chart reveals the total
 - 👯 **Hang Huynh Cong Thuan:**
 
 - 👨‍💻  **Tran Bac Chuong:** 
-
+# About us:
 <h3 align="left">Connect with us:</h3>
 <p align="left">
 <a href="https://twitter.com/BattleShip" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="BattleShip" height="30" width="40" /></a>
