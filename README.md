@@ -1,3 +1,24 @@
-# VISUALIZATION ABOUT THE CAUSE OF DEATH AROUND THE WORLD
+</p>
 
-The goal of our project is to compile a comprehensive and interactive data visualization of the information regarding the specific mortality count in each nation, the list of causes of death pertaining to the related nation as well as each cause’s associated confirmed deaths. With this data, we hope to be able to easily identify the leading causes for the loss of life and find out the potential flaws, setbacks as well as potential negligences within the healthcare system to handle such causes, from not only across the world, but also concerning specific nations, in order to improve on our health quality as well as our daily lifestyle. Moreover, this data would prove to be helpful to our individual selves as well, in recognizing and exercising caution against the most probable causes of deaths described in the visual.  
+<h3 align="center">Get ready to relive some childhood memories and have some fun✨✨</h3>
+
+<p align="center" > <img align="center" alt = "gif" src = "https://github.com/ducthinh17/BattleShip-2/blob/main/demo_batttleship.gif" width="740" height="580" /></p>
+
+
+# SEA OF BONES
+<p>
+<a href="#"><img alt="Java" src="https://custom-icon-badges.demolab.com/badge/Java-007396.svg?logo=java&logoColor=white"></a>
+<a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>  
+<a href="#"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-327FC7.svg?logo=github&logoColor=white"></a>
+<a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white"></a>
+</p>
+
+"Sea Of Bones" is an updated version of "BattleShip"- a familiar name among game lovers in 1987, with this improved version we have greatly improved the experience for players and also not forgetting to be user-friendly.
+
+Story: The Viking wars at sea, also known as the "Viking wars", were important events in the history of Northern Europe and Europe during the Middle Ages.
+The Vikings were a Nordic people who lived in the oceans and coastal regions. They are known to be mercenary sailors capable of moving and attacking anywhere in the sea with their long and flexible boats.
+During the Middle Ages, Viking wars at sea spread throughout Europe and North America, attacking settlements, cities, and even merchant ships. They became enemies of many European countries, especially Britain, France and Denmark.
+The Viking wars at sea came to an end in the early 11th century after the Norwegian captain Leif Erikson discovered the Americas, and European countries began to transition to the era of imperialism and search for territories. new land at sea.
+
+Mission:
+The object of the game is to find the location of the opponent's ships and destroy them by attacking the tiles on the opponent's board
