@@ -63,6 +63,10 @@ But we don't stop there. The last circle of the sunburst chart reveals the total
 
 - 👨‍💻  **Tran Bac Chuong:** 
 # About us:
+<p> 🗣 All of my projects are available at [DSDV]([https://github.com/ducthinh17/BattleShip-2](https://github.com/ducthinh17/DSDV-CAUSEOFDEATH)) </p>
+
+<p> 💬 Ask me about **Javascript, Java swing, JFrame,...** </p>
+
 <h3 align="left">Connect with us:</h3>
 <p align="left">
 <a href="https://twitter.com/BattleShip" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="BattleShip" height="30" width="40" /></a>
