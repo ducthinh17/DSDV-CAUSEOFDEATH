@@ -14,7 +14,7 @@ By delving into this wealth of data, our goal is to unravel the mysteries surrou
 But this project isn't just about improving the world at large—it's about empowering individuals too. Our visualization will provide you with a personal roadmap to recognizing and mitigating the most probable causes of death. With the knowledge gained from our interactive dashboard, you can take proactive steps towards safeguarding your own well-being and embracing a healthier lifestyle.
 
 
-# Line chart:
+## Line chart:
 ## Scatterplot:
 ## Geogeraphy chart :
 ## Sunburst chart :
