@@ -14,7 +14,7 @@ By delving into this wealth of data, our goal is to unravel the mysteries surrou
 But this project isn't just about improving the world at large—it's about empowering individuals too. Our visualization will provide you with a personal roadmap to recognizing and mitigating the most probable causes of death. With the knowledge gained from our interactive dashboard, you can take proactive steps towards safeguarding your own well-being and embracing a healthier lifestyle.
 
 
-## Line chart:
+## Line Chart:
 Within our comprehensive line chart, we embark on a journey to uncover four significant diseases: Neonatal Disorders, Interpersonal Violence, Digestive Diseases, and Chronic Kidney Disease. These diseases are not only commonly diagnosed but also bear a profound impact on global health.
 
 As we delve into the intricacies of our line chart, a compelling narrative unfolds. Over a span of ten years, from 2005 to the present, we witness a consistent trend across all four diseases—a steady increase in their occurrence. However, it's worth noting a slight decrease in their prevalence in 2005 before the upward trajectory resumes.
@@ -25,9 +25,15 @@ On the other end of the spectrum, Chronic Kidney Disease takes its place at the 
 
 As the lines on the chart dance, intertwine, and converge, a vivid picture emerges—highlighting the rising challenges posed by these diseases over the years. This visualization not only sheds light on the urgency of addressing them but also emphasizes the need for focused efforts in healthcare and prevention.
 
-## Scatterplot:
-## Geogeraphy chart :
-## Sunburst chart :
+## Scatter Plot:
+## Geogeraphy Chart :
+Prepare to embark on a captivating journey as we introduce you to our geography chart—a remarkable visualization that brings the entire world map to your computer screen. Within this immersive chart, we will shine a spotlight on three significant diseases: Cardiovascular, Neoplasm, and Neonatal Disorders, represented by the striking colors of blue, green, and orange, respectively.
+
+With our innovative interactive features, the power is in your hands. Zoom in and zoom out, effortlessly navigating the map to uncover the number of deaths attributed to each disease in every country. Watch as the data comes alive before your eyes, revealing the prevalence and impact of these diseases across the globe.
+
+As you explore the intricacies of the map, a clear pattern emerges. Cardiovascular disease, depicted in a captivating shade of blue, spreads like a wave, affecting numerous countries around the world. This visual revelation emphasizes the global challenge we face in combating this pervasive condition.
+
+## Sunburst Chart :
 In our sunburs chart, we have classified causes of death into three main groups: communicable diseases, non-communicable diseases, and injuries. Picture a captivating sunburst chart, where each group takes its place in a symphony of knowledge.
 
 With our innovative interactive features,the first circle gracefully illustrates the proportion of each group in the form of a pie chart.. But that's just the beginning,the second circle of the chart will intricately display the percentages of each disease within in each group, offering a clear and captivating understanding of their impact. Prepare to be amazed as the chart unveils a mesmerizing visual representation of how each disease contributes to the larger picture.
