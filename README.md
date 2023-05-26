@@ -18,6 +18,12 @@ But this project isn't just about improving the world at large—it's about empo
 ## Scatterplot:
 ## Geogeraphy chart :
 ## Sunburst chart :
+In our sunburs chart, we have classified causes of death into three main groups: communicable diseases, non-communicable diseases, and injuries. Picture a captivating sunburst chart, where each group takes its place in a symphony of knowledge.
+
+As the sunburst chart comes to life, it becomes evident that communicable diseases claim more than half of the chart's real estate. But that's just the beginning. With our innovative interactive features, the second circle of the chart will intricately display the percentages of each disease within in each group, offering a clear and captivating understanding of their impact. Prepare to be amazed as the chart unveils a mesmerizing visual representation of how each disease contributes to the larger picture.
+
+But we don't stop there. The last circle of the sunburst chart reveals the total causes of death attributed to each specific disease in every country. This dynamic and interactive feature will allow you to explore the diverse landscapes of mortality causes, as vibrant colors and intricate patterns guide your journey. With a simple click, you can delve deeper into each country's unique distribution of causes and witness the magnitude of the impact caused by specific diseases within each group.
+
 # Members:
 - 🔥  **Pham Le Duc Thinh:** 
 
