@@ -19,11 +19,7 @@ Within our comprehensive line chart, we embark on a journey to uncover four sign
 
 As we delve into the intricacies of our line chart, a compelling narrative unfolds. Over a span of ten years, from 2005 to the present, we witness a consistent trend across all four diseases—a steady increase in their occurrence. However, it's worth noting a slight decrease in their prevalence in 2005 before the upward trajectory resumes.
 
-In this captivating visualization, each line tells a story. Neonatal Disorders, taking the lead, assert their prominence throughout the timeline. The unforgiving burden they bear on newborns is a critical concern that demands our attention.
-
-On the other end of the spectrum, Chronic Kidney Disease takes its place at the tail end of the chart. Although still significant, it appears to have a comparatively lower prevalence. However, we must not underestimate the impact it has on individuals and the importance of addressing this condition.
-
-As the lines on the chart dance, intertwine, and converge, a vivid picture emerges—highlighting the rising challenges posed by these diseases over the years. This visualization not only sheds light on the urgency of addressing them but also emphasizes the need for focused efforts in healthcare and prevention.
+In this captivating visualization, each line tells a story. Neonatal Disorders, taking the lead, assert their prominence throughout the timeline. The unforgiving burden they bear on newborns is a critical concern that demands our attention.On the other end of the spectrum, Chronic Kidney Disease takes its place at the tail end of the chart. Although still significant, it appears to have a comparatively lower prevalence. However, we must not underestimate the impact it has on individuals and the importance of addressing this condition.
 
 ## Scatter Plot:
 ## Geogeraphy Chart :
