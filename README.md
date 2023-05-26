@@ -22,6 +22,14 @@ As we delve into the intricacies of our line chart, a compelling narrative unfol
 In this captivating visualization, each line tells a story. Neonatal Disorders, taking the lead, assert their prominence throughout the timeline. The unforgiving burden they bear on newborns is a critical concern that demands our attention.On the other end of the spectrum, Chronic Kidney Disease takes its place at the tail end of the chart. Although still significant, it appears to have a comparatively lower prevalence. However, we must not underestimate the impact it has on individuals and the importance of addressing this condition.
 
 ## Scatter Plot:
+Prepare to delve into the fascinating relationship between Meningitis and Diarrheal Diseases as we unveil our insightful scatter plot. This visual representation will shed light on how these diseases impact three countries: Afghanistan, Thailand, and Vietnam. 
+
+Meningitis, a formidable and potentially deadly disease, has long instilled fear in humanity. As the scatter plot materializes before you, an intriguing pattern emerges. Afghanistan, unfortunately, takes the lead in the prevalence of Meningitis, signaling the urgent need for interventions and healthcare support in this region. On the other end of the spectrum, Thailand, depicted towards the lower end of the plot, exhibits a comparatively lower incidence of the disease. 
+
+However, what stands out is the significant gap between Afghanistan and the other two countries, Thailand and Vietnam. This disparity highlights the stark contrast in the burden of Meningitis, underscoring the varying challenges faced by different nations.
+
+The scatter plot serves as a window into the complex relationship between these diseases and the countries they affect. By analyzing the data points and trends, we can gain valuable insights into disease prevalence and allocate resources effectively to combat these health challenges.
+
 ## Geogeraphy Chart :
 Prepare to embark on a captivating journey as we introduce you to our geography chart—a remarkable visualization that brings the entire world map to your computer screen. Within this immersive chart, we will shine a spotlight on three significant diseases: Cardiovascular, Neoplasm, and Neonatal Disorders, represented by the striking colors of blue, green, and orange, respectively.
 
