@@ -1,9 +1,9 @@
 import { Box, useTheme } from "@mui/material";
-import GeographyChart from "../../components/GeographyChart";
+// import GeographyChart from "../../components/GeographyChart";
 import Header from "../../components/Header";
 import { tokens } from "../../theme";
 import GeoChart from "../../components/GeoChart";
-import {MapContainer} from "react-leaflet";
+// import {MapContainer} from "react-leaflet";
 
 const Geography = () => {
   const theme = useTheme();

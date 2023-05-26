@@ -1,17 +1,17 @@
-import React, {useEffect, useState} from 'react';
+//import React, {useState} from 'react';
 import 'leaflet/dist/leaflet.css';
-import {MapContainer, GeoJSON, TileLayer, useMap,} from 'react-leaflet';
-import L from 'leaflet';
+import {MapContainer, GeoJSON, TileLayer} from 'react-leaflet';
+//import L from 'leaflet';
 import data from '../data/data.json'
 const {features} = data;
 let mapRef;
 
 const GeoChart = function ({isDashboard = false}){
-    const [selected, setSelected] = useState({});
+    //const [selected, setSelected] = useState({});
     /* function determining what should happen onmouseover, this function updates our state*/
     function highlightFeature(e) {
         var layer = e.target;
-        const { Disease, Deaths, Name } = e.target.feature.properties;
+        //const { Disease, Deaths, Name } = e.target.feature.properties;
         // setSelected({
         //     disease: Disease,
         //     deaths: Deaths,
