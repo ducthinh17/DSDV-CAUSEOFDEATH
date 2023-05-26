@@ -1,6 +1,6 @@
 <p align="center">
   <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=999&size=60&pause=1000&color=628E90&width=950&height=80&lines=%7CWELCOM+TO+OUR+PROJECT%7C" alt="Typing SVG" /></a>
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=999&size=60&pause=1000&color=628E90&width=1000&height=80&lines=%7CWELCOM+TO+OUR+PROJECT%7C" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
