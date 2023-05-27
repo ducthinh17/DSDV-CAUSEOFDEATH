@@ -9,15 +9,12 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/ducthinh17/DSDV-CAUSEOFDEATH">
-    <img src="./readme_img/log.jpg" alt="Logo" width="200" height="200">
+  <a href="https://github.com/ducthinh17/DSDV-CAUSEOFDEAT">
+    <img src="./readme_img/logo.jpg" alt="Logo" width="200" height="200">
   </a>
 
-<h3 align="center">DATA SCIENCE AND DATA VISUALIZATION</h3>
-<h4 align="center">Team Name: Ăn nói xà lơ!</h4>
-
   <p align="center">
-    A website dashboard created with React - MySQL - D3.js for Data Science and Data Visualization course in International University - VNUHCM!
+    A website dashboard about "DEADTH"
     <br />
     <br />
     <!-- <a href="https://youtu.be/iLo5E-07aY0">View Demo</a> -->
