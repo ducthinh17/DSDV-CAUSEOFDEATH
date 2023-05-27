@@ -19,7 +19,7 @@
 
 <p align="center">
   <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&pause=1000&color=FBA1A1&repeat=false&width=400&height=110&lines=CAUSES+OF+DEATH" alt="Typing SVG" /></a>
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&pause=1000&color=FBA1A1&repeat=false&width=900&height=110&lines=CAUSES+OF+DEATH" alt="Typing SVG" /></a>
     <p>
     <p>
       
