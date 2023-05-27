@@ -10,11 +10,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/ducthinh17/DSDV-CAUSEOFDEAT">
-    <img src="./readme_img/logo.jpg" alt="Logo" width="200" height="200">
+    <img src="./readme_img/logo.jpg" alt="Logo" width="200" height="150">
   </a>
-
-  <p align="center">
-    A website dashboard about "DEADTH"
     <br />
     <br />
     <!-- <a href="https://youtu.be/iLo5E-07aY0">View Demo</a> -->
