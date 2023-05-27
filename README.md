@@ -82,7 +82,7 @@ With our innovative interactive features,the first circle gracefully illustrates
 But we don't stop there. The last circle of the sunburst chart reveals the total causes of death attributed to each specific disease in every country. This dynamic and interactive feature will allow you to explore the diverse landscapes of mortality causes, as vibrant colors and intricate patterns guide your journey. With a simple click, you can delve deeper into each country's unique distribution of causes and witness the magnitude of the impact caused by specific diseases within each group.
 
 ## Reference:
-[youtube]: (https://www.youtube.com/watch?v=wYpCWwD1oz0&t=3841s)
+https://www.youtube.com/watch?v=wYpCWwD1oz0&t=3841s
 
 # Members:
 - 🔥  **Pham Le Duc Thinh:** 
