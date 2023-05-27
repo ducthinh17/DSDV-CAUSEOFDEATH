@@ -7,6 +7,23 @@
     <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=999&size=60&pause=1000&color=628E90&width=850&height=80&lines=%7CWELCOM+TO+OUR+PROJECT%7C" alt="Typing SVG" /></a>
 </p>
 
+<br />
+<div align="center">
+  <a href="https://github.com/ducthinh17/DSDV-CAUSEOFDEATH">
+    <img src="./readme_img/log.jpg" alt="Logo" width="200" height="200">
+  </a>
+
+<h3 align="center">DATA SCIENCE AND DATA VISUALIZATION</h3>
+<h4 align="center">Team Name: Ăn nói xà lơ!</h4>
+
+  <p align="center">
+    A website dashboard created with React - MySQL - D3.js for Data Science and Data Visualization course in International University - VNUHCM!
+    <br />
+    <br />
+    <!-- <a href="https://youtu.be/iLo5E-07aY0">View Demo</a> -->
+  </p>
+</div>
+
 <p align="center">
   <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
     <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&pause=1000&color=FBA1A1&repeat=false&width=500&height=110&lines=CAUSES+OF+DEATH" alt="Typing SVG" /></a>
