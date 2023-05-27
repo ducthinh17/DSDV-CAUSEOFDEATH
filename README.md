@@ -13,14 +13,13 @@
     <img src="./readme_img/logo.jpg" alt="Logo" width="200" height="150">
   </a>
     <br />
-    <br />
     <!-- <a href="https://youtu.be/iLo5E-07aY0">View Demo</a> -->
   </p>
 </div>
 
 <p align="center">
   <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&pause=1000&color=FBA1A1&repeat=false&width=500&height=110&lines=CAUSES+OF+DEATH" alt="Typing SVG" /></a>
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&pause=1000&color=FBA1A1&repeat=false&width=700&height=110&lines=CAUSES+OF+DEATH" alt="Typing SVG" /></a>
     <p>
     <p>
       
