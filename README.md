@@ -1,6 +1,7 @@
-<div id="top" align="center">
-<img src="./readme_img/intro.jpg" alt="Banner">
+<div align="center">
+  <img src="./readme_img/intro.jpg" alt="Banner" width="700">
 </div>
+
 
 <p align="center">
   <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
