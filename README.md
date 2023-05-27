@@ -36,10 +36,10 @@
 # Table of contents :round_pushpin:
 1. [Introduction](#Introduction)
 2. [Techniques](#Techniques)
-3. [Line-Chart](#Line-Chart)
-4. [Scatter Plot](#Scatter Plot)
-5. [Geogeraphy Chart](#Geogeraphy Chart)
-6. [Sunburst Chart](#Sunburst Chart)
+3. [Line_Chart](#Line_Chart)
+4. [Scatter_Plot](#Scatter_Plot)
+5. [Geogeraphy_Chart](#Geogeraphy_Chart)
+6. [Sunburst_Chart](#Sunburst_Chart)
 7. [References](#References)
 8. [Members](#Members)
 
