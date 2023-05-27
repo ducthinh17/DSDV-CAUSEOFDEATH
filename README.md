@@ -1,5 +1,5 @@
 <div id="top" align="center">
-<img src="./readme_img/live.jpg" alt="Banner">
+<img src="./readme_img/intro.jpg" alt="Banner">
 </div>
 
 <p align="center">
