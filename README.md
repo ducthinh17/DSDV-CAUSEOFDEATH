@@ -85,17 +85,15 @@ But we don't stop there. The last circle of the sunburst chart reveals the total
 https://www.youtube.com/watch?v=wYpCWwD1oz0&t=3841s
 
 # Members:
-- 🔥  **Pham Le Duc Thinh:** 
+| Index |         Name          |     ID      |                  Email                  |                       Github                                |                              Position                              |
+| :---: | :-------------------: | :---------: |:---------------------------------------:| :---------------------------------------------------------: | :----------------------------------------------------------------: |
+|   1   |     Pham Le Duc Thinh | ITDSIU20085 |           pldthinh.ityu@gmail.com       |           [ducthinh17](https://github.com/ducthinh17)       |          Leader                                                    |
+|   2   |    Nguyen Thanh Binh  | ITDSIU20056 |          ntbinh.ityu@gmail.com          | [OliverRed1602](https://github.com/OliverRed1602)           |         Member                                                     |
+|   3   |    Tran Bac Chuong    | ITITIU20093 |        tbchuong@gmail.com               |       [Torches0307](https://github.com/Torches0307)         |         Member                                                     |
+|   4   | Hang Huynh Cong Thuan | ITITIU20021 |      hhcthuan.ityu@gmail.com            |       [trndnhan](https://github.com/trndnhan)               |          Member                                                    |
 
-- 💻  **Nguyen Thanh Binh:** 
-
-- 👯 **Hang Huynh Cong Thuan:**
-
-- 👨‍💻  **Tran Bac Chuong:** 
 # About us:
 <p> 🗣 All of my projects are available at [DSDV](https://github.com/ducthinh17/DSDV-CAUSEOFDEATH)) </p>
-
-<p> 💬 Ask me about **Javascript, Java swing, JFrame,...** </p>
 
 <h3 align="left">Connect with us:</h3>
 <p align="left">
