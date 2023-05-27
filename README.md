@@ -110,6 +110,6 @@ But we don't stop there. The last circle of the sunburst chart reveals the total
 
 
 <div align="center">
-  <img src="./readme_img/end.jpg" alt="Banner" width="1000" height="250">
+  <img src="./readme_img/end-2.jpg" alt="Banner2" width="1000" height="250">
 </div>
 
