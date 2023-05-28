@@ -24,14 +24,7 @@
     <p>
       
 # CAUSES OF DEATH AROUND THE WORLD 
-<p>
-<a href="#"><img alt="JS" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></a>
-<a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></a>
-<a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></a>  
-<a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a> 
-<a href="#"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-327FC7.svg?logo=github&logoColor=white"></a>
-<a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white"></a>
-</p>
+
 
 # Table of contents :round_pushpin:
 1. [Introduction](#Introduction)
@@ -50,6 +43,15 @@ By delving into this wealth of data, our goal is to unravel the mysteries surrou
 
 But this project isn't just about improving the world at large—it's about empowering individuals too. Our visualization will provide you with a personal roadmap to recognizing and mitigating the most probable causes of death. With the knowledge gained from our interactive dashboard, you can take proactive steps towards safeguarding your own well-being and embracing a healthier lifestyle.
 
+## Techniques 👨‍💻:
+<p>
+<a href="#"><img alt="JS" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></a>
+<a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></a>
+<a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></a>  
+<a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a> 
+<a href="#"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-327FC7.svg?logo=github&logoColor=white"></a>
+<a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white"></a>
+</p>
 
 ## Line Chart 📈:
 Within our comprehensive line chart, we embark on a journey to uncover four significant diseases: Neonatal Disorders, Interpersonal Violence, Digestive Diseases, and Chronic Kidney Disease. These diseases are not only commonly diagnosed but also bear a profound impact on global health.
