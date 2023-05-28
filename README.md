@@ -91,7 +91,7 @@ https://www.youtube.com/watch?v=wYpCWwD1oz0&t=3841s
 | :---: | :-------------------: | :---------: |:---------------------------------------:| :---------------------------------------------------------: | :----------------------------------------------------------------: |
 |   1   |     Pham Le Duc Thinh | ITDSIU20085 |           pldthinh.ityu@gmail.com       |           [ducthinh17](https://github.com/ducthinh17)       |          Leader                                                    |
 |   2   |    Nguyen Thanh Binh  | ITDSIU20056 |          ntbinh.ityu@gmail.com          | [OliverRed1602](https://github.com/OliverRed1602)           |         Member                                                     |
-|   3   |    Tran Bac Chuong    | ITITIU20093 |        tbchuong@gmail.com               |       [Torches0307](https://github.com/Torches0307)         |         Member                                                     |
+|   3   |    Tran Bac Chuong    | ITITIU20093 |        tbchuong@gmail.com               |       [unclechapter](https://github.com/unclechapter)         |         Member                                                     |
 |   4   | Hang Huynh Cong Thuan | ITITIU20021 |      hhcthuan.ityu@gmail.com            |       [Torches0307](https://github.com/Torches0307)               |          Member                                                    |
 
 # About us:
