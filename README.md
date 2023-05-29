@@ -95,7 +95,7 @@ https://www.youtube.com/watch?v=wYpCWwD1oz0&t=3841s
 |   4   | Hang Huynh Cong Thuan | ITITIU20021 |      hhcthuan.ityu@gmail.com            |       [Torches0307](https://github.com/Torches0307)               |          Member                                                    |
 
 # About us:
-<p> 🗣 All of my projects are available at [DSDV](https://github.com/ducthinh17/DSDV-CAUSEOFDEATH)) </p>
+<p> 🗣 All of my projects are available at [DSDV](https://github.com/ducthinh17/DSDV-CAUSEOFDEATH) </p>
 
 <h3 align="left">Connect with us:</h3>
 <p align="left">
