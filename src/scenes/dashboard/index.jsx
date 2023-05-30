@@ -21,7 +21,7 @@ const Dashboard = () => {
     <Box m="20px">
       {/* HEADER */}
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="DASHBOARD" subtitle="Welcome to your project" />
+        <Header title="DASHBOARD" subtitle="Welcome to our project" />
         <Box>
           <Button
             sx={{
@@ -219,7 +219,7 @@ const Dashboard = () => {
           p="30px"
         >
           <Typography variant="h5" fontWeight="600">
-            Campaign
+            Medical Improvement
           </Typography>
           <Box
             display="flex"
@@ -227,15 +227,15 @@ const Dashboard = () => {
             alignItems="center"
             mt="25px"
           >
-            <ReactSunburst size="125" />
+            <ReactSunburst size="150" />
             <Typography
               variant="h5"
               color={colors.greenAccent[500]}
               sx={{ mt: "15px" }}
             >
-              $48,352 revenue generated
+              70% after 5 Years of Diagnosis
             </Typography>
-            <Typography>Includes extra misc expenditures and costs</Typography>
+            <Typography>Survival Rate of a Specific Stage of Stomach Cancer</Typography>
           </Box>
         </Box>
         <Box gridColumn="span 4" gridRow="span 2" backgroundColor={"#363646"}>
@@ -245,7 +245,7 @@ const Dashboard = () => {
             fontWeight="600"
             sx={{ padding: "30px 30px 0 30px" }}
           >
-            Meningitis and Diarrhea
+            Diarrhea & GPD per capita
           </Typography>
           <Box height="250px" mt="-20px" backgroundColor={"#363646"}>
             <ScatterPlot isDashboard={true} />

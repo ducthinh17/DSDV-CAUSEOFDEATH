@@ -3,7 +3,6 @@ import {
   VictoryChart,
   VictoryScatter,
   VictoryZoomContainer,
-  // VictoryAxis,
   VictoryTooltip,
   VictoryLabel,
 } from "victory";
@@ -14,9 +13,12 @@ const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const groupColors = {
-    Afghanistan: "tomato",
-    Thailand: "blue",
+    Colombia: "tomato",
+    Laos: "blue",
     Vietnam: "green",
+    Thailand: "#efd510",
+    Philippines: "orange",
+    Bhutan: "brown",
   };
 
   const tableData = Object.keys(groupColors).map((group) => ({
@@ -26,42 +28,87 @@ const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
 
   const getScatterData = () => [
     {
-      id: "Afghanistan",
+      id: "Colombia",
       data: [
-        { x: 4235, y: 2159, year: "2000" },
-        { x: 4927, y: 2218, year: "2013" },
-        { x: 6123, y: 2475, year: "2014" },
-        { x: 8174, y: 2812, year: "2015" },
-        { x: 8215, y: 3027, year: "2016" },
-        { x: 9566, y: 3102, year: "2017" },
-        { x: 9682, y: 3193, year: "2018" },
-        { x: 10656, y: 3304, year: "2019" },
+        { x: 288, y: 2195, year: "2000" },
+        { x: 558, y: 1563, year: "2005" },
+        { x: 837, y: 995, year: "2010" },
+        { x: 1040, y: 843, year: "2013" },
+        { x: 1160, y: 839, year: "2014" },
+        { x: 1280, y: 848, year: "2015" },
+        { x: 1410, y: 851, year: "2016" },
+        { x: 1570, y: 867, year: "2017" },
+        { x: 1740, y: 887, year: "2018" },
+        { x: 1930, y: 903, year: "2019" },
       ],
     },
     {
-      id: "Thailand",
+      id: "Laos",
       data: [
-        { x: 7345, y: 1359, year: "2000" },
-        { x: 6899, y: 1324, year: "2013" },
-        { x: 6484, y: 1300, year: "2014" },
-        { x: 6194, y: 1296, year: "2015" },
-        { x: 5997, y: 1320, year: "2016" },
-        { x: 5742, y: 1342, year: "2017" },
-        { x: 5477, y: 1359, year: "2018" },
-        { x: 5185, y: 1249, year: "2019" },
+        { x: 1010, y: 6537, year: "2000" },
+        { x: 1390, y: 5409, year: "2005" },
+        { x: 1740, y: 5155, year: "2010" },
+        { x: 2040, y: 4873, year: "2013" },
+        { x: 2140, y: 4485, year: "2014" },
+        { x: 2250, y: 4015, year: "2015" },
+        { x: 2390, y: 3334, year: "2016" },
+        { x: 2540, y: 2771, year: "2017" },
+        { x: 2680, y: 2392, year: "2018" },
+        { x: 2820, y: 1817, year: "2019" },
       ],
     },
     {
       id: "Vietnam",
       data: [
-        { x: 7933, y: 2049, year: "2000" },
-        { x: 7561, y: 2078, year: "2013" },
-        { x: 7264, y: 1939, year: "2014" },
-        { x: 6753, y: 1829, year: "2015" },
-        { x: 6339, y: 1757, year: "2016" },
-        { x: 5882, y: 1659, year: "2017" },
-        { x: 5379, y: 1570, year: "2018" },
-        { x: 4978, y: 1466, year: "2019" },
+        { x: 490, y: 4949, year: "2000" },
+        { x: 788, y: 4578, year: "2005" },
+        { x: 1318, y: 4039, year: "2010" },
+        { x: 1515, y: 3829, year: "2013" },
+        { x: 1700, y: 2957, year: "2014" },
+        { x: 2085, y: 2259, year: "2015" },
+        { x: 2300, y: 1570, year: "2016" },
+        { x: 2540, y: 1466, year: "2017" },
+        { x: 2666, y: 1770, year: "2018" },
+        { x: 2716, y: 1466, year: "2019" },
+      ],
+    },
+    {
+      id: "Thailand",
+      data: [
+        { x: 2636, y: 5311, year: "2000" },
+        { x: 3719, y: 5054, year: "2005" },
+        { x: 4740, y: 5190, year: "2010" },
+        { x: 5090, y: 5322, year: "2013" },
+        { x: 5482, y: 5478, year: "2014" },
+      ],
+    },
+    {
+      id: "Philippines",
+      data: [
+        { x: 1100, y: 11942, year: "2000" },
+        { x: 1600, y: 11632, year: "2005" },
+        { x: 2300, y: 10349, year: "2010" },
+        { x: 2800, y: 9590, year: "2013" },
+        { x: 3000, y: 9456, year: "2014" },
+        { x: 3200, y: 9407, year: "2015" },
+        { x: 3400, y: 9272, year: "2016" },
+        { x: 3700, y: 9078, year: "2017" },
+        { x: 4100, y: 8639, year: "2018" },
+        { x: 4500, y: 8392, year: "2019" },
+      ],
+    },
+    {
+      id: "Bhutan",
+      data: [
+        { x: 2420, y: 8632, year: "2005" },
+        { x: 2727, y: 8149, year: "2010" },
+        { x: 2830, y: 7412, year: "2013" },
+        { x: 2910, y: 7056, year: "2014" },
+        { x: 3100, y: 6600, year: "2015" },
+        { x: 3200, y: 6572, year: "2016" },
+        { x: 3400, y: 6500, year: "2017" },
+        { x: 3600, y: 6339, year: "2018" },
+        { x: 3800, y: 6292, year: "2019" },
       ],
     },
   ];
@@ -71,6 +118,7 @@ const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
   return (
     <div style={{ height: "700px" }}>
       <VictoryChart
+
         theme={{
           background: "#f0f0f0",
           axis: {
@@ -101,6 +149,7 @@ const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
         }}
         width={500}
         height={400}
+        animate={{ duration: 2000, easing: "bounce" }} // Add the animate prop here
       >
         {data.map((scatterData, index) => (
           <VictoryScatter
@@ -112,7 +161,7 @@ const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
             labelComponent={<VictoryTooltip />}
             style={{
               data: {
-                fill: index === 0 ? "tomato" : index === 1 ? "blue" : "green",
+                fill: groupColors[scatterData.id],
                 opacity: 1,
               },
             }}
@@ -121,20 +170,20 @@ const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
         ))}
 
         <VictoryLabel
-          text="Exploring the Relationship between Meningitis and Diarrhea"
+          text="Exploring the Relationship between Diarrhea and GDP per capita"
           x={250}
           y={10}
           textAnchor="middle"
           style={{
-            fill: "brown",
+            fill: "grey",
             fontSize: 18,
             fontWeight: "bold",
           }}
         />
         <VictoryLabel
-          text="Diarrheal Diseases (unit)"
+          text="GDP per capita (USD)"
           x={250}
-          y={380}
+          y={390}
           textAnchor="middle"
           style={{
             fill: "grey",
@@ -143,8 +192,8 @@ const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
           }}
         />
         <VictoryLabel
-          text="Meningitis (unit)"
-          x={5}
+          text="Diarrheal Diseases (unit)"
+          x={-10}
           y={200}
           textAnchor="middle"
           angle={-90}
@@ -163,7 +212,7 @@ const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
           style={{
             backgroundColor: "darkslategray",
             marginLeft: "80%",
-            marginTop: "-10%",
+            marginTop: "-17%",
           }}
         >
           <thead>
@@ -174,8 +223,7 @@ const MyResponsiveScatterPlot = ({ isDashboard = false }) => {
           </thead>
           <tbody>
             {tableData.map((row, index) => (
-              
-              <tr key={index} style={{ backgroundColor: "#5F9EA0" }} >
+              <tr key={index} style={{ backgroundColor: "#5F9EA0" }}>
                 <td>{row.label}</td>
                 <td style={{ backgroundColor: row.color }}></td>
               </tr>

@@ -1,3 +1,4 @@
+import React from "react";
 import { ResponsiveLine } from "@nivo/line";
 import { useTheme } from "@mui/material";
 import { tokens } from "../theme";
@@ -8,10 +9,8 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
   const colors = tokens(theme.palette.mode);
 
   return (
-    
-    <ResponsiveLine 
+    <ResponsiveLine
       data={data}
-      
       theme={{
         axis: {
           domain: {
@@ -45,12 +44,12 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
           },
         },
       }}
-      colors={isDashboard ? { datum: "color" } : { scheme: "nivo" }} // added
+      colors={isDashboard ? { datum: "color" } : { scheme: "dark2" }} // changed color scheme to "dark2"
       margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
       xScale={{ type: "point" }}
       yScale={{
         type: "linear",
-        min: "auto",
+        min: 20,
         max: "auto",
         stacked: true,
         reverse: false,
@@ -64,17 +63,17 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
         tickSize: 0,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "transportation", // added
+        legend: isDashboard ? undefined : "Year", // Updated X-axis label to "Year"
         legendOffset: 36,
         legendPosition: "middle",
       }}
       axisLeft={{
         orient: "left",
-        tickValues: 5, // added
+        tickValues: 5,
         tickSize: 8,
         tickPadding: 8,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "count", // added
+        legend: isDashboard ? undefined : "Value", // Updated Y-axis label to "Value"
         legendOffset: -40,
         legendPosition: "middle",
       }}

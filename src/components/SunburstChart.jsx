@@ -77,8 +77,9 @@ const MyResponsiveSunburst = ({ isDashboard = false }) => {
           </div>
         )}
       />
-      {selectedNode && <div>Selected Node: {selectedNode.data.name}</div>}
+      {selectedNode && <div>Selected Node: {selectedNode.data.name} | Value: {selectedNode.data.loc} </div>}
       <div>
+    
         <table
           style={{
             backgroundColor: "darkslategray",
