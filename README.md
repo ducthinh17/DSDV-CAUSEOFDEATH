@@ -25,10 +25,8 @@
 
 # CAUSES OF DEATH AROUND THE WORLD 
 ### Website:
-    ``` git clone https://github.com/ducthinh17/BattleShip-2/
-   
-      
-
+    https://dsdv-causeofdeath-8z8oxy7oy-ducthinh17.vercel.app/
+  
 # Table of contents 🎯:
 1. [Introduction](#Introduction)
 2. [Techniques](#Techniques)
