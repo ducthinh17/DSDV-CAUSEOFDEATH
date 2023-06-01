@@ -14,19 +14,6 @@ export const sunBurstSampleData = {
         
         "children": [
         
-        {
-        
-        "name": "Cardiovascular Diseases",
-        "loc": 447741982,
-        "children":[
-         { "name": "Asia", "loc":   268645189},
-         { "name": "Europe", "loc": 53729038},
-         { "name": "Africa", "loc": 71638717},
-         { "name": "Oceania", "loc": 4477420},
-         { "name": "Americas", "loc": 44774198},
-        ]
-        
-        },
         
         {
         
@@ -41,20 +28,18 @@ export const sunBurstSampleData = {
          ]
         
         },
-        
         {
+          "name": "Acute Hepatitis",
+          "loc": 3784791,
+          "children":[
+            { "name": "Asia", "loc": 2270874.6 },
+            { "name": "Europe", "loc": 454174.92 },
+            { "name": "Africa", "loc": 605566.56 },
+            { "name": "Oceania", "loc": 37847.91 },
+            { "name": "Americas", "loc": 378479.10000000003 },
+     ]
+          },
         
-        "name": "Neonatal Disorders",
-        "loc": 76860729,
-        "children":[
-          { "name": "Asia", "loc":   46116437},
-          { "name": "Europe", "loc": 9223287},
-          { "name": "Africa", "loc": 12297717},
-          { "name": "Oceania", "loc": 768607},
-          { "name": "Americas", "loc": 7686073},
-         ]
-        
-        },
         
         {
         
@@ -207,6 +192,32 @@ export const sunBurstSampleData = {
    ]
         },
         {
+        
+          "name": "Neonatal Disorders",
+          "loc": 76860729,
+          "children":[
+            { "name": "Asia", "loc":   46116437},
+            { "name": "Europe", "loc": 9223287},
+            { "name": "Africa", "loc": 12297717},
+            { "name": "Oceania", "loc": 768607},
+            { "name": "Americas", "loc": 7686073},
+           ]
+          
+          },
+        {
+        
+          "name": "Cardiovascular Diseases",
+          "loc": 447741982,
+          "children":[
+           { "name": "Asia", "loc":   268645189},
+           { "name": "Europe", "loc": 53729038},
+           { "name": "Africa", "loc": 71638717},
+           { "name": "Oceania", "loc": 4477420},
+           { "name": "Americas", "loc": 44774198},
+          ]
+          
+          },
+        {
         "name": "Chronic Respiratory Diseases",
         "loc": 104605334,
         "children":[
@@ -288,17 +299,6 @@ export const sunBurstSampleData = {
           { "name": "Americas", "loc": 481901.80000000005 },
    ]
         },
-        {
-        "name": "Acute Hepatitis",
-        "loc": 3784791,
-        "children":[
-          { "name": "Asia", "loc": 2270874.6 },
-          { "name": "Europe", "loc": 454174.92 },
-          { "name": "Africa", "loc": 605566.56 },
-          { "name": "Oceania", "loc": 37847.91 },
-          { "name": "Americas", "loc": 378479.10000000003 },
-   ]
-        }
         
         ]
         
@@ -418,17 +418,7 @@ export const sunBurstSampleData = {
           { "name": "Americas", "loc": 1030199.9 },
    ]
         },
-        {
-        "name": "Acute Hepatitis",
-        "loc": 3784791,
-        "children":[
-          { "name": "Asia", "loc": 2270874.6 },
-          { "name": "Europe", "loc": 454174.92 },
-          { "name": "Africa", "loc": 605566.56 },
-          { "name": "Oceania", "loc": 37847.91 },
-          { "name": "Americas", "loc": 378479.10000000003 },
-   ]
-        },
+        
         
         {
         
