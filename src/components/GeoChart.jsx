@@ -97,11 +97,11 @@ const GeoChart = function ({isDashboard = false}){
                                      style={style}
                                      onEachFeature={onEachFeature}/>
                         )}
-                        {/*<div className="legend">*/}
-                        {/*    <div style={{ "--color": "#7FFFD4" }}>Cardiovascular</div>*/}
-                        {/*    <div style={{ "--color": "#FFA07A" }}>Neoplasm</div>*/}
-                        {/*    <div style={{ "--color": "#ADFF2F" }}>Neonatal</div>*/}
-                        {/*</div>*/}
+                        <div className="legend">
+                            <div style={{ "--color": "#7FFFD4" }}>Cardiovascular</div>
+                            <div style={{ "--color": "#FFA07A" }}>Neoplasm</div>
+                            <div style={{ "--color": "#ADFF2F" }}>Neonatal</div>
+                        </div>
                     </MapContainer>
                 </div>
             </div>
