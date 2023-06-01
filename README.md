@@ -22,14 +22,14 @@
     <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&pause=1000&color=FBA1A1&repeat=false&width=450&height=110&lines=CAUSES+OF+DEATH" alt="Typing SVG" /></a>
     <p>
     <p>
- # Website:
+
+# CAUSES OF DEATH AROUND THE WORLD 
+## Website:
     <br>
     ''' sh
     https://dsdv-causeofdeath-8z8oxy7oy-ducthinh17.vercel.app/
       '''
       
-# CAUSES OF DEATH AROUND THE WORLD 
-
 
 # Table of contents 🎯:
 1. [Introduction](#Introduction)
