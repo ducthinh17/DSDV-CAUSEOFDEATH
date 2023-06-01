@@ -24,10 +24,11 @@
     <p>
 
 # CAUSES OF DEATH AROUND THE WORLD 
-## Website:
-    ''' sh
-    https://dsdv-causeofdeath-8z8oxy7oy-ducthinh17.vercel.app/
-      '''
+### Website:
+    ```sh
+   
+   git clone https://github.com/ducthinh17/BattleShip-2/
+   ```
       
 
 # Table of contents 🎯:
