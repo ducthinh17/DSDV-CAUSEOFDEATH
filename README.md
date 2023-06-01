@@ -25,10 +25,8 @@
 
 # CAUSES OF DEATH AROUND THE WORLD 
 ### Website:
-    ```sh
+    ``` git clone https://github.com/ducthinh17/BattleShip-2/
    
-   git clone https://github.com/ducthinh17/BattleShip-2/
-   ```
       
 
 # Table of contents 🎯:
